@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\bin\Debug\net10.0\Count Of Elements.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\bin\Debug\net10.0\Count Of Elements.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\bin\Debug\net10.0\Count Of Elements.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\bin\Debug\net10.0\Count Of Elements.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\bin\Debug\net10.0\Count Of Elements.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\Count Of Elements.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\Count Of Elements.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\Count Of Elements.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\Count Of Elements.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\Count Of Elements.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\refint\Count Of Elements.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\Count Of Elements.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\Count Of Elements.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\Count Of Elements\obj\Debug\net10.0\ref\Count Of Elements.dll

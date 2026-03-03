@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\bin\Debug\net10.0\secondlargest.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\bin\Debug\net10.0\secondlargest.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\bin\Debug\net10.0\secondlargest.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\bin\Debug\net10.0\secondlargest.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\bin\Debug\net10.0\secondlargest.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\secondlargest.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\secondlargest.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\secondlargest.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\secondlargest.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\secondlargest.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\refint\secondlargest.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\secondlargest.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\secondlargest.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\secondlargest\obj\Debug\net10.0\ref\secondlargest.dll

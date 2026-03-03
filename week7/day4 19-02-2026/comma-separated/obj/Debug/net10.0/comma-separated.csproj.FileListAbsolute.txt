@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\comma-separated.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\comma-separated.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\comma-separated.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\comma-separated.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\bin\Debug\net10.0\comma-separated.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\bin\Debug\net10.0\comma-separated.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\bin\Debug\net10.0\comma-separated.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\bin\Debug\net10.0\comma-separated.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\bin\Debug\net10.0\comma-separated.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\comma-separated.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\refint\comma-separated.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\comma-separated.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\comma-separated.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week7\day4 19-02-2026\comma-separated\obj\Debug\net10.0\ref\comma-separated.dll

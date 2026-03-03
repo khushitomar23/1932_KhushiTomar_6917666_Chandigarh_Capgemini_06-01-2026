@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\bin\Debug\net10.0\Perfect_Suffle.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\bin\Debug\net10.0\Perfect_Suffle.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\bin\Debug\net10.0\Perfect_Suffle.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\bin\Debug\net10.0\Perfect_Suffle.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\bin\Debug\net10.0\Perfect_Suffle.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\Perfect_Suffle.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\Perfect_Suffle.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\Perfect_Suffle.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\Perfect_Suffle.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\Perfect_Suffle.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\refint\Perfect_Suffle.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\Perfect_Suffle.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\Perfect_Suffle.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Perfect_Suffle\obj\Debug\net10.0\ref\Perfect_Suffle.dll

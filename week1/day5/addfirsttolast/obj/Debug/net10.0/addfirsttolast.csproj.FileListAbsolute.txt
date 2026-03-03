@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\bin\Debug\net10.0\addfirsttolast.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\bin\Debug\net10.0\addfirsttolast.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\bin\Debug\net10.0\addfirsttolast.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\bin\Debug\net10.0\addfirsttolast.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\bin\Debug\net10.0\addfirsttolast.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\addfirsttolast.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\addfirsttolast.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\addfirsttolast.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\addfirsttolast.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\addfirsttolast.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\refint\addfirsttolast.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\addfirsttolast.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\addfirsttolast.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\addfirsttolast\obj\Debug\net10.0\ref\addfirsttolast.dll

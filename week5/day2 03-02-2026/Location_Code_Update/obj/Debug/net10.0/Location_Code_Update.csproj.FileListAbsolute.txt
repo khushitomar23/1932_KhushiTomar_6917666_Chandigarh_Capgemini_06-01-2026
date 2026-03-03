@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\bin\Debug\net10.0\Location_Code_Update.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\bin\Debug\net10.0\Location_Code_Update.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\bin\Debug\net10.0\Location_Code_Update.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\bin\Debug\net10.0\Location_Code_Update.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\bin\Debug\net10.0\Location_Code_Update.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\Location_Code_Update.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\Location_Code_Update.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\Location_Code_Update.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\Location_Code_Update.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\Location_Code_Update.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\refint\Location_Code_Update.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\Location_Code_Update.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\Location_Code_Update.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Location_Code_Update\obj\Debug\net10.0\ref\Location_Code_Update.dll

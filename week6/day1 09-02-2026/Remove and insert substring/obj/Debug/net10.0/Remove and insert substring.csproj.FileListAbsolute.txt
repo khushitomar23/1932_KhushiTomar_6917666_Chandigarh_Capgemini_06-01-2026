@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\bin\Debug\net10.0\Remove and insert substring.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\bin\Debug\net10.0\Remove and insert substring.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\bin\Debug\net10.0\Remove and insert substring.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\bin\Debug\net10.0\Remove and insert substring.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\bin\Debug\net10.0\Remove and insert substring.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\Remove and insert substring.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\Remove and insert substring.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\Remove and insert substring.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\Remove and insert substring.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\Remove and insert substring.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\refint\Remove and insert substring.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\Remove and insert substring.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\Remove and insert substring.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Remove and insert substring\obj\Debug\net10.0\ref\Remove and insert substring.dll

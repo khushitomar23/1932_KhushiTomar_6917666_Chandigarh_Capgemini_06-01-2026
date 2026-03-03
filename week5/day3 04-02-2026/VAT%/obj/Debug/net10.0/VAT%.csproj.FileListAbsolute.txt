@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\bin\Debug\net10.0\VAT%.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\bin\Debug\net10.0\VAT%.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\bin\Debug\net10.0\VAT%.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\bin\Debug\net10.0\VAT%.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\bin\Debug\net10.0\VAT%.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\VAT%.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\VAT%.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\VAT%.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\VAT%.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\VAT%.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\refint\VAT%.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\VAT%.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\VAT%.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\VAT%\obj\Debug\net10.0\ref\VAT%.dll

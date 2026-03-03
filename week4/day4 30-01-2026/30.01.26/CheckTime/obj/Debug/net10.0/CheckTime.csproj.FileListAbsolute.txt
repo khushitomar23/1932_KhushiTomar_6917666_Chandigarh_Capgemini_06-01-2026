@@ -1,0 +1,14 @@
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\bin\Debug\net10.0\CheckTime.exe
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\bin\Debug\net10.0\CheckTime.deps.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\bin\Debug\net10.0\CheckTime.runtimeconfig.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\bin\Debug\net10.0\CheckTime.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\bin\Debug\net10.0\CheckTime.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\CheckTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\CheckTime.AssemblyInfoInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\CheckTime.AssemblyInfo.cs
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\CheckTime.csproj.CoreCompileInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\CheckTime.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\refint\CheckTime.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\CheckTime.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\CheckTime.genruntimeconfig.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckTime\obj\Debug\net10.0\ref\CheckTime.dll

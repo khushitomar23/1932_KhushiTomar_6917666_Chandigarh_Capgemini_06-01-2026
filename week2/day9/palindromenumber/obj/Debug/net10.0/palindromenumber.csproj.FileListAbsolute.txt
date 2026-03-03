@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\bin\Debug\net10.0\palindromenumber.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\bin\Debug\net10.0\palindromenumber.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\bin\Debug\net10.0\palindromenumber.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\bin\Debug\net10.0\palindromenumber.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\bin\Debug\net10.0\palindromenumber.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\palindromenumber.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\palindromenumber.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\palindromenumber.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\palindromenumber.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\palindromenumber.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\refint\palindromenumber.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\palindromenumber.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\palindromenumber.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\palindromenumber\obj\Debug\net10.0\ref\palindromenumber.dll

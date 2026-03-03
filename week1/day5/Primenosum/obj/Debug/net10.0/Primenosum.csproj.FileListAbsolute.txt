@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\bin\Debug\net10.0\Primenosum.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\bin\Debug\net10.0\Primenosum.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\bin\Debug\net10.0\Primenosum.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\bin\Debug\net10.0\Primenosum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\bin\Debug\net10.0\Primenosum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\Primenosum.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\Primenosum.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\Primenosum.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\Primenosum.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\Primenosum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\refint\Primenosum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\Primenosum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\Primenosum.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\Primenosum\obj\Debug\net10.0\ref\Primenosum.dll

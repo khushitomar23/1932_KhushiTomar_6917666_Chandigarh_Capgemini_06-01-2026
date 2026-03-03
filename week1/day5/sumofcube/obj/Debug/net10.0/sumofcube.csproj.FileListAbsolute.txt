@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\bin\Debug\net10.0\sumofcube.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\bin\Debug\net10.0\sumofcube.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\bin\Debug\net10.0\sumofcube.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\bin\Debug\net10.0\sumofcube.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\bin\Debug\net10.0\sumofcube.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\sumofcube.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\sumofcube.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\sumofcube.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\sumofcube.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\sumofcube.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\refint\sumofcube.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\sumofcube.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\sumofcube.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day5\sumofcube\obj\Debug\net10.0\ref\sumofcube.dll

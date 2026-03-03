@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Insert_at_specified_position/1.0.0": {
+        "runtime": {
+          "Insert_at_specified_position.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Insert_at_specified_position/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

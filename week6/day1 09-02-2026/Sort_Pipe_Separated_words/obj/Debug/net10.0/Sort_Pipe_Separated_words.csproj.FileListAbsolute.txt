@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\bin\Debug\net10.0\Sort_Pipe_Separated_words.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\bin\Debug\net10.0\Sort_Pipe_Separated_words.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\bin\Debug\net10.0\Sort_Pipe_Separated_words.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\bin\Debug\net10.0\Sort_Pipe_Separated_words.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\bin\Debug\net10.0\Sort_Pipe_Separated_words.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\Sort_Pipe_Separated_words.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\Sort_Pipe_Separated_words.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\Sort_Pipe_Separated_words.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\Sort_Pipe_Separated_words.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\Sort_Pipe_Separated_words.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\refint\Sort_Pipe_Separated_words.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\Sort_Pipe_Separated_words.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\Sort_Pipe_Separated_words.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Sort_Pipe_Separated_words\obj\Debug\net10.0\ref\Sort_Pipe_Separated_words.dll

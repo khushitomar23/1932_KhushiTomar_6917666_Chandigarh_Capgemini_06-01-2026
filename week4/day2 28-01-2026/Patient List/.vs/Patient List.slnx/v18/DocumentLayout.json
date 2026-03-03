@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week4\\day2 28-01-2026\\Patient List\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FD206C-9EDD-CB78-F322-C00F7143872F}|Patient List.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week4\\day2 28-01-2026\\patient list\\patientbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FD206C-9EDD-CB78-F322-C00F7143872F}|Patient List.csproj|solutionrelative:patientbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FD206C-9EDD-CB78-F322-C00F7143872F}|Patient List.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week4\\day2 28-01-2026\\patient list\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FD206C-9EDD-CB78-F322-C00F7143872F}|Patient List.csproj|solutionrelative:patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FD206C-9EDD-CB78-F322-C00F7143872F}|Patient List.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week4\\day2 28-01-2026\\patient list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FD206C-9EDD-CB78-F322-C00F7143872F}|Patient List.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 284,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientBO.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week4\\day2 28-01-2026\\Patient List\\PatientBO.cs",
+              "RelativeDocumentMoniker": "PatientBO.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week4\\day2 28-01-2026\\Patient List\\PatientBO.cs",
+              "RelativeToolTip": "PatientBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T06:06:30.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week4\\day2 28-01-2026\\Patient List\\Patient.cs",
+              "RelativeDocumentMoniker": "Patient.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week4\\day2 28-01-2026\\Patient List\\Patient.cs",
+              "RelativeToolTip": "Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T06:04:28.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week4\\day2 28-01-2026\\Patient List\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week4\\day2 28-01-2026\\Patient List\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T05:49:24.526Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

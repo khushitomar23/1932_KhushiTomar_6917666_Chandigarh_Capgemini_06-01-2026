@@ -1,0 +1,14 @@
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\bin\Debug\net10.0\FormString.exe
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\bin\Debug\net10.0\FormString.deps.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\bin\Debug\net10.0\FormString.runtimeconfig.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\bin\Debug\net10.0\FormString.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\bin\Debug\net10.0\FormString.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\FormString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\FormString.AssemblyInfoInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\FormString.AssemblyInfo.cs
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\FormString.csproj.CoreCompileInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\FormString.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\refint\FormString.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\FormString.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\FormString.genruntimeconfig.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\FormString\obj\Debug\net10.0\ref\FormString.dll

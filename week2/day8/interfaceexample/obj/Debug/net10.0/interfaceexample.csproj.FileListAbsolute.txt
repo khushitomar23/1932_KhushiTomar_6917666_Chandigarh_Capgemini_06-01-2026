@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\bin\Debug\net10.0\interfaceexample.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\bin\Debug\net10.0\interfaceexample.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\bin\Debug\net10.0\interfaceexample.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\bin\Debug\net10.0\interfaceexample.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\bin\Debug\net10.0\interfaceexample.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\interfaceexample.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\interfaceexample.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\interfaceexample.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\interfaceexample.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\interfaceexample.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\refint\interfaceexample.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\interfaceexample.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\interfaceexample.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\interfaceexample\obj\Debug\net10.0\ref\interfaceexample.dll

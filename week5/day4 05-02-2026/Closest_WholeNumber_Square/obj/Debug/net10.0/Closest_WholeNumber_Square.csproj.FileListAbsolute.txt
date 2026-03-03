@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\bin\Debug\net10.0\Closest_WholeNumber_Square.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\bin\Debug\net10.0\Closest_WholeNumber_Square.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\bin\Debug\net10.0\Closest_WholeNumber_Square.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\bin\Debug\net10.0\Closest_WholeNumber_Square.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\bin\Debug\net10.0\Closest_WholeNumber_Square.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\Closest_WholeNumber_Square.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\Closest_WholeNumber_Square.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\Closest_WholeNumber_Square.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\Closest_WholeNumber_Square.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\Closest_WholeNumber_Square.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\refint\Closest_WholeNumber_Square.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\Closest_WholeNumber_Square.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\Closest_WholeNumber_Square.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Closest_WholeNumber_Square\obj\Debug\net10.0\ref\Closest_WholeNumber_Square.dll

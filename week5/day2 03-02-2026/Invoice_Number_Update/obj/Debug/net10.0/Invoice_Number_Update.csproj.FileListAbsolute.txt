@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\bin\Debug\net10.0\Invoice_Number_Update.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\bin\Debug\net10.0\Invoice_Number_Update.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\bin\Debug\net10.0\Invoice_Number_Update.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\bin\Debug\net10.0\Invoice_Number_Update.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\bin\Debug\net10.0\Invoice_Number_Update.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\Invoice_Number_Update.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\Invoice_Number_Update.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\Invoice_Number_Update.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\Invoice_Number_Update.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\Invoice_Number_Update.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\refint\Invoice_Number_Update.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\Invoice_Number_Update.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\Invoice_Number_Update.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 03-02-2026\Invoice_Number_Update\obj\Debug\net10.0\ref\Invoice_Number_Update.dll

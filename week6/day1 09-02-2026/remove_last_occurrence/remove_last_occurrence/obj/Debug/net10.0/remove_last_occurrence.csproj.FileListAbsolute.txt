@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\bin\Debug\net10.0\remove_last_occurrence.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\bin\Debug\net10.0\remove_last_occurrence.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\bin\Debug\net10.0\remove_last_occurrence.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\bin\Debug\net10.0\remove_last_occurrence.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\bin\Debug\net10.0\remove_last_occurrence.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\remove_last_occurrence.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\remove_last_occurrence.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\remove_last_occurrence.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\remove_last_occurrence.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\remove_last_occurrence.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\refint\remove_last_occurrence.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\remove_last_occurrence.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\remove_last_occurrence.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\remove_last_occurrence\remove_last_occurrence\obj\Debug\net10.0\ref\remove_last_occurrence.dll

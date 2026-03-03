@@ -1,0 +1,11 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\bin\Debug\net10.0\GreeterLib.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\bin\Debug\net10.0\GreeterLib.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\bin\Debug\net10.0\GreeterLib.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\GreeterLib.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\GreeterLib.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\GreeterLib.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\GreeterLib.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\GreeterLib.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\refint\GreeterLib.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\GreeterLib.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\DotNetWorkshop\HelloWorld\GreeterLib\obj\Debug\net10.0\ref\GreeterLib.dll

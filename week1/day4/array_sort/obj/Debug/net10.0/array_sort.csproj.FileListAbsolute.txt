@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\bin\Debug\net10.0\array_sort.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\bin\Debug\net10.0\array_sort.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\bin\Debug\net10.0\array_sort.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\bin\Debug\net10.0\array_sort.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\bin\Debug\net10.0\array_sort.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\array_sort.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\array_sort.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\array_sort.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\array_sort.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\array_sort.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\refint\array_sort.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\array_sort.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\array_sort.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\array_sort\obj\Debug\net10.0\ref\array_sort.dll

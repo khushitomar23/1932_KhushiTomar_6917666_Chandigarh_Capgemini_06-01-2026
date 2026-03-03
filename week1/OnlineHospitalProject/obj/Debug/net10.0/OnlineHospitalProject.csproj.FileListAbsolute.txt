@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\bin\Debug\net10.0\OnlineHospitalProject.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\bin\Debug\net10.0\OnlineHospitalProject.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\bin\Debug\net10.0\OnlineHospitalProject.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\bin\Debug\net10.0\OnlineHospitalProject.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\bin\Debug\net10.0\OnlineHospitalProject.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\OnlineHospitalProject.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\OnlineHospitalProject.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\OnlineHospitalProject.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\OnlineHospitalProject.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\OnlineHospitalProject.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\refint\OnlineHospitalProject.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\OnlineHospitalProject.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\OnlineHospitalProject.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\OnlineHospitalProject\obj\Debug\net10.0\ref\OnlineHospitalProject.dll

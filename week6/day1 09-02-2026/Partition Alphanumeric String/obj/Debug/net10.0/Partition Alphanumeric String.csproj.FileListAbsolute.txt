@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\Partition Alphanumeric String.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\Partition Alphanumeric String.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\Partition Alphanumeric String.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\Partition Alphanumeric String.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\bin\Debug\net10.0\Partition Alphanumeric String.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\bin\Debug\net10.0\Partition Alphanumeric String.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\bin\Debug\net10.0\Partition Alphanumeric String.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\bin\Debug\net10.0\Partition Alphanumeric String.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\bin\Debug\net10.0\Partition Alphanumeric String.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\Partition Alphanumeric String.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\refint\Partition Alphanumeric String.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\Partition Alphanumeric String.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\Partition Alphanumeric String.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Partition Alphanumeric String\obj\Debug\net10.0\ref\Partition Alphanumeric String.dll

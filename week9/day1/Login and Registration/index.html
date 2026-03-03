@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colorful Login & Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+            background-size: 300% 300%;
+            animation: gradientMove 8s infinite alternate;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: left; }
+            100% { background-position: right; }
+        }
+
+        .container {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .form-card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            width: 320px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            color: white;
+        }
+
+        .form-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus {
+            box-shadow: 0 0 8px #fff;
+            transform: scale(1.03);
+        }
+
+        .login-btn {
+            background: linear-gradient(45deg, #36d1dc, #5b86e5);
+        }
+
+        .register-btn {
+            background: linear-gradient(45deg, #ff6a00, #ee0979);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Login -->
+    <div class="form-card">
+        <h2>Login</h2>
+        <form>
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" placeholder="Enter username">
+
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" placeholder="Enter password">
+
+            <button class="login-btn" type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Register -->
+    <div class="form-card">
+        <h2>Register</h2>
+        <form>
+            <label for="reg-username">Username</label>
+            <input type="text" id="reg-username" placeholder="Enter username">
+
+            <label for="reg-email">Email</label>
+            <input type="email" id="reg-email" placeholder="Enter email">
+
+            <label for="reg-password">Password</label>
+            <input type="password" id="reg-password" placeholder="Enter password">
+
+            <button class="register-btn" type="submit">Register</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

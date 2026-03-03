@@ -1,0 +1,14 @@
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\bin\Debug\net10.0\ValidateHex.exe
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\bin\Debug\net10.0\ValidateHex.deps.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\bin\Debug\net10.0\ValidateHex.runtimeconfig.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\bin\Debug\net10.0\ValidateHex.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\bin\Debug\net10.0\ValidateHex.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ValidateHex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ValidateHex.AssemblyInfoInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ValidateHex.AssemblyInfo.cs
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ValidateHex.csproj.CoreCompileInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ValidateHex.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\refint\ValidateHex.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ValidateHex.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ValidateHex.genruntimeconfig.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\ValidateHex\obj\Debug\net10.0\ref\ValidateHex.dll

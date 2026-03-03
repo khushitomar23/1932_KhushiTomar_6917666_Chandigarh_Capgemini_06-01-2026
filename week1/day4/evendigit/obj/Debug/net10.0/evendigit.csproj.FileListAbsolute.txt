@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\bin\Debug\net10.0\evendigit.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\bin\Debug\net10.0\evendigit.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\bin\Debug\net10.0\evendigit.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\bin\Debug\net10.0\evendigit.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\bin\Debug\net10.0\evendigit.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\evendigit.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\evendigit.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\evendigit.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\evendigit.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\evendigit.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\refint\evendigit.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\evendigit.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\evendigit.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\evendigit\obj\Debug\net10.0\ref\evendigit.dll

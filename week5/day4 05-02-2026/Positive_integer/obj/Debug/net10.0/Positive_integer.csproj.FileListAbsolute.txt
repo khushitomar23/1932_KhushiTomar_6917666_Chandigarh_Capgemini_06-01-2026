@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\bin\Debug\net10.0\Positive_integer.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\bin\Debug\net10.0\Positive_integer.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\bin\Debug\net10.0\Positive_integer.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\bin\Debug\net10.0\Positive_integer.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\bin\Debug\net10.0\Positive_integer.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\Positive_integer.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\Positive_integer.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\Positive_integer.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\Positive_integer.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\Positive_integer.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\refint\Positive_integer.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\Positive_integer.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\Positive_integer.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day4 05-02-2026\Positive_integer\obj\Debug\net10.0\ref\Positive_integer.dll

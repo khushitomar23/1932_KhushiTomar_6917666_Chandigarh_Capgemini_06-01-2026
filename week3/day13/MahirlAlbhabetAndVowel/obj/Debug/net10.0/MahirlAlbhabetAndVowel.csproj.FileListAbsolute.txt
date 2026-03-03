@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\bin\Debug\net10.0\MahirlAlbhabetAndVowel.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\bin\Debug\net10.0\MahirlAlbhabetAndVowel.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\bin\Debug\net10.0\MahirlAlbhabetAndVowel.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\bin\Debug\net10.0\MahirlAlbhabetAndVowel.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\bin\Debug\net10.0\MahirlAlbhabetAndVowel.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\MahirlAlbhabetAndVowel.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\MahirlAlbhabetAndVowel.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\MahirlAlbhabetAndVowel.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\MahirlAlbhabetAndVowel.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\MahirlAlbhabetAndVowel.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\refint\MahirlAlbhabetAndVowel.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\MahirlAlbhabetAndVowel.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\MahirlAlbhabetAndVowel.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlAlbhabetAndVowel\obj\Debug\net10.0\ref\MahirlAlbhabetAndVowel.dll

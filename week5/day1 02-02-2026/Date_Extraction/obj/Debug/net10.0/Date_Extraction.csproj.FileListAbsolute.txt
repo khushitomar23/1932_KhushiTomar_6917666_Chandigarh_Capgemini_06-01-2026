@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\bin\Debug\net10.0\Date_Extraction.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\bin\Debug\net10.0\Date_Extraction.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\bin\Debug\net10.0\Date_Extraction.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\bin\Debug\net10.0\Date_Extraction.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\bin\Debug\net10.0\Date_Extraction.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\Date_Extraction.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\Date_Extraction.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\Date_Extraction.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\Date_Extraction.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\Date_Extraction.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\refint\Date_Extraction.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\Date_Extraction.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\Date_Extraction.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day1 02-02-2026\Date_Extraction\obj\Debug\net10.0\ref\Date_Extraction.dll

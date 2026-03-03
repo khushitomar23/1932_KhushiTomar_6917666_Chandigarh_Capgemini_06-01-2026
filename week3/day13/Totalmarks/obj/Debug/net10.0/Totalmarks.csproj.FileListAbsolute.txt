@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\bin\Debug\net10.0\Totalmarks.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\bin\Debug\net10.0\Totalmarks.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\bin\Debug\net10.0\Totalmarks.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\bin\Debug\net10.0\Totalmarks.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\bin\Debug\net10.0\Totalmarks.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\Totalmarks.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\Totalmarks.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\Totalmarks.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\Totalmarks.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\Totalmarks.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\refint\Totalmarks.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\Totalmarks.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\Totalmarks.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\Totalmarks\obj\Debug\net10.0\ref\Totalmarks.dll

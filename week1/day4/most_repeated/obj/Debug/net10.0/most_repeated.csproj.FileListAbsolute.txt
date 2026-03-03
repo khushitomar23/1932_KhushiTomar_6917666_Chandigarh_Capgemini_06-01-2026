@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\most_repeated.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\most_repeated.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\most_repeated.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\most_repeated.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\bin\Debug\net10.0\most_repeated.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\bin\Debug\net10.0\most_repeated.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\bin\Debug\net10.0\most_repeated.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\bin\Debug\net10.0\most_repeated.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\bin\Debug\net10.0\most_repeated.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\most_repeated.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\refint\most_repeated.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\most_repeated.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\most_repeated.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\most_repeated\obj\Debug\net10.0\ref\most_repeated.dll

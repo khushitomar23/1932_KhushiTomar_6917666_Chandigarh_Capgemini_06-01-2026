@@ -1,0 +1,14 @@
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\bin\Debug\net10.0\EmployeeDesignation.exe
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\bin\Debug\net10.0\EmployeeDesignation.deps.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\bin\Debug\net10.0\EmployeeDesignation.runtimeconfig.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\bin\Debug\net10.0\EmployeeDesignation.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\bin\Debug\net10.0\EmployeeDesignation.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\EmployeeDesignation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\EmployeeDesignation.AssemblyInfoInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\EmployeeDesignation.AssemblyInfo.cs
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\EmployeeDesignation.csproj.CoreCompileInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\EmployeeDesignation.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\refint\EmployeeDesignation.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\EmployeeDesignation.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\EmployeeDesignation.genruntimeconfig.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\EmployeeDesignation\obj\Debug\net10.0\ref\EmployeeDesignation.dll

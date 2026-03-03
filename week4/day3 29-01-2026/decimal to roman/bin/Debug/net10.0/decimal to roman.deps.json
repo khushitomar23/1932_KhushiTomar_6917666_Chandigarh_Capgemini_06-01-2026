@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "decimal to roman/1.0.0": {
+        "runtime": {
+          "decimal to roman.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "decimal to roman/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

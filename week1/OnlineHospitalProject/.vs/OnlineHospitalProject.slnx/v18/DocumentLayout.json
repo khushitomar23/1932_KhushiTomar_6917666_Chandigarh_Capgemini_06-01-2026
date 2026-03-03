@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week1\\onlinehospitalproject\\onlinehospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|solutionrelative:onlinehospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week1\\onlinehospitalproject\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|solutionrelative:hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week1\\onlinehospitalproject\\governmenthospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|solutionrelative:governmenthospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week1\\onlinehospitalproject\\ibillingcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|solutionrelative:ibillingcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week1\\onlinehospitalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29AFA79-CF75-7140-FEC4-3FDBA6C22443}|OnlineHospitalProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ibillingcs.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\Ibillingcs.cs",
+              "RelativeDocumentMoniker": "Ibillingcs.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\Ibillingcs.cs",
+              "RelativeToolTip": "Ibillingcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T06:44:15.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GovernmentHospital.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\GovernmentHospital.cs",
+              "RelativeDocumentMoniker": "GovernmentHospital.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\GovernmentHospital.cs",
+              "RelativeToolTip": "GovernmentHospital.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T06:12:48.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\Hospital.cs",
+              "RelativeDocumentMoniker": "Hospital.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\Hospital.cs",
+              "RelativeToolTip": "Hospital.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T06:00:50.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OnlineHospital.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\OnlineHospital.cs",
+              "RelativeDocumentMoniker": "OnlineHospital.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\OnlineHospital.cs",
+              "RelativeToolTip": "OnlineHospital.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:58:19.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week1\\OnlineHospitalProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:57:35.848Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

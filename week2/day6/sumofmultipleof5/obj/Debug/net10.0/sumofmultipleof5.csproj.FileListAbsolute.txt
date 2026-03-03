@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\bin\Debug\net10.0\sumofmultipleof5.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\bin\Debug\net10.0\sumofmultipleof5.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\bin\Debug\net10.0\sumofmultipleof5.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\bin\Debug\net10.0\sumofmultipleof5.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\bin\Debug\net10.0\sumofmultipleof5.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\sumofmultipleof5.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\sumofmultipleof5.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\sumofmultipleof5.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\sumofmultipleof5.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\sumofmultipleof5.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\refint\sumofmultipleof5.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\sumofmultipleof5.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\sumofmultipleof5.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\sumofmultipleof5\obj\Debug\net10.0\ref\sumofmultipleof5.dll

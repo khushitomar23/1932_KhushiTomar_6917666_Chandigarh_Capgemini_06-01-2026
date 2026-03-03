@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\bin\Debug\net10.0\MahirlandMath.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\bin\Debug\net10.0\MahirlandMath.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\bin\Debug\net10.0\MahirlandMath.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\bin\Debug\net10.0\MahirlandMath.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\bin\Debug\net10.0\MahirlandMath.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\MahirlandMath.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\MahirlandMath.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\MahirlandMath.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\MahirlandMath.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\MahirlandMath.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\refint\MahirlandMath.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\MahirlandMath.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\MahirlandMath.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\MahirlandMath\obj\Debug\net10.0\ref\MahirlandMath.dll

@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\bin\Debug\net10.0\Date-Difference.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\bin\Debug\net10.0\Date-Difference.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\bin\Debug\net10.0\Date-Difference.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\bin\Debug\net10.0\Date-Difference.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\bin\Debug\net10.0\Date-Difference.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\Date-Difference.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\Date-Difference.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\Date-Difference.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\Date-Difference.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\Date-Difference.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\refint\Date-Difference.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\Date-Difference.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\Date-Difference.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week5\day2 04-02-2026\Date-Difference\obj\Debug\net10.0\ref\Date-Difference.dll

@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\bin\Debug\net10.0\multiplenum.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\bin\Debug\net10.0\multiplenum.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\bin\Debug\net10.0\multiplenum.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\bin\Debug\net10.0\multiplenum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\bin\Debug\net10.0\multiplenum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\multiplenum.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\multiplenum.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\multiplenum.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\multiplenum.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\multiplenum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\refint\multiplenum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\multiplenum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\multiplenum.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\multiplenum\obj\Debug\net10.0\ref\multiplenum.dll

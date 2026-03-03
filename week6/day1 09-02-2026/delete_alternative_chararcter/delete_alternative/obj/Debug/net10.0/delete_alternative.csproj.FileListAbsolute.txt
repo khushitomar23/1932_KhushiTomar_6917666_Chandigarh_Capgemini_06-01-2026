@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\bin\Debug\net10.0\delete_alternative.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\bin\Debug\net10.0\delete_alternative.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\bin\Debug\net10.0\delete_alternative.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\bin\Debug\net10.0\delete_alternative.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\bin\Debug\net10.0\delete_alternative.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\delete_alternative.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\delete_alternative.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\delete_alternative.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\delete_alternative.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\delete_alternative.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\refint\delete_alternative.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\delete_alternative.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\delete_alternative.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\delete_alternative_chararcter\delete_alternative\obj\Debug\net10.0\ref\delete_alternative.dll

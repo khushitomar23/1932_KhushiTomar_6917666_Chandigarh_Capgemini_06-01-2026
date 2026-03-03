@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\longest non repeating string.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\longest non repeating string.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\longest non repeating string.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\longest non repeating string.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\bin\Debug\net10.0\longest non repeating string.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\bin\Debug\net10.0\longest non repeating string.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\bin\Debug\net10.0\longest non repeating string.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\bin\Debug\net10.0\longest non repeating string.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\bin\Debug\net10.0\longest non repeating string.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\longest non repeating string.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\refint\longest non repeating string.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\longest non repeating string.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\longest non repeating string.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\longest non repeating string\obj\Debug\net10.0\ref\longest non repeating string.dll

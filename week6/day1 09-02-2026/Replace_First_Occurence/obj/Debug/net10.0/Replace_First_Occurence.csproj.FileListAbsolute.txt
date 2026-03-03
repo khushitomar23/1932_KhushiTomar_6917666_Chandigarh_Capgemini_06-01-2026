@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\bin\Debug\net10.0\Replace_First_Occurence.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\bin\Debug\net10.0\Replace_First_Occurence.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\bin\Debug\net10.0\Replace_First_Occurence.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\bin\Debug\net10.0\Replace_First_Occurence.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\bin\Debug\net10.0\Replace_First_Occurence.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\Replace_First_Occurence.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\Replace_First_Occurence.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\Replace_First_Occurence.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\Replace_First_Occurence.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\Replace_First_Occurence.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\refint\Replace_First_Occurence.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\Replace_First_Occurence.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\Replace_First_Occurence.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day1\Replace_First_Occurence\obj\Debug\net10.0\ref\Replace_First_Occurence.dll

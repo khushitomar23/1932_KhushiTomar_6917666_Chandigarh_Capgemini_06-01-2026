@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "primenocubesum/1.0.0": {
+        "runtime": {
+          "primenocubesum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "primenocubesum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

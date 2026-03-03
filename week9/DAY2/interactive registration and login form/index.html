@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration & Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Register -->
+    <div class="card">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <label for="regUsername">Username</label>
+            <input type="text" id="regUsername" required>
+
+            <label for="regEmail">Email</label>
+            <input type="email" id="regEmail" required>
+
+            <label for="regPassword">Password</label>
+            <input type="password" id="regPassword" required>
+
+            <label for="regConfirmPassword">Confirm Password</label>
+            <input type="password" id="regConfirmPassword" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <!-- Login -->
+    <div class="card">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="loginEmail">Email</label>
+            <input type="email" id="loginEmail" required>
+
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

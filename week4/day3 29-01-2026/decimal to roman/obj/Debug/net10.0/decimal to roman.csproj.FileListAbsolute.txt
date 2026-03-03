@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\bin\Debug\net10.0\decimal to roman.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\bin\Debug\net10.0\decimal to roman.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\bin\Debug\net10.0\decimal to roman.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\bin\Debug\net10.0\decimal to roman.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\bin\Debug\net10.0\decimal to roman.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\decimal to roman.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\decimal to roman.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\decimal to roman.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\decimal to roman.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\decimal to roman.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\refint\decimal to roman.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\decimal to roman.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\decimal to roman.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day3 29-01-2026\decimal to roman\obj\Debug\net10.0\ref\decimal to roman.dll

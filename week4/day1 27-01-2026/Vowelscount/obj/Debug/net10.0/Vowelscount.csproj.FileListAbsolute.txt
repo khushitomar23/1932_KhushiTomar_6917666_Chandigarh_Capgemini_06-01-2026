@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\bin\Debug\net10.0\Vowelscount.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\bin\Debug\net10.0\Vowelscount.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\bin\Debug\net10.0\Vowelscount.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\bin\Debug\net10.0\Vowelscount.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\bin\Debug\net10.0\Vowelscount.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\Vowelscount.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\Vowelscount.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\Vowelscount.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\Vowelscount.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\Vowelscount.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\refint\Vowelscount.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\Vowelscount.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\Vowelscount.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Vowelscount\obj\Debug\net10.0\ref\Vowelscount.dll

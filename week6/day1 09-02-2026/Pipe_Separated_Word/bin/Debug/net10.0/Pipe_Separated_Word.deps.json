@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Pipe_Separated_Word/1.0.0": {
+        "runtime": {
+          "Pipe_Separated_Word.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pipe_Separated_Word/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

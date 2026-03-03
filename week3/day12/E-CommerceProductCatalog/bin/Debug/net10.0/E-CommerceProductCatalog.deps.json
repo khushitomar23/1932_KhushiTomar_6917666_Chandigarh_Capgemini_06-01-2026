@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "E-CommerceProductCatalog/1.0.0": {
+        "runtime": {
+          "E-CommerceProductCatalog.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "E-CommerceProductCatalog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

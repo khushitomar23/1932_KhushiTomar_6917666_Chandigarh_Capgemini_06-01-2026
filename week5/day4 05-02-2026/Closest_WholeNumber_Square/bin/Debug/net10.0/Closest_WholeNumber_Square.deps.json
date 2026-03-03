@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Closest_WholeNumber_Square/1.0.0": {
+        "runtime": {
+          "Closest_WholeNumber_Square.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Closest_WholeNumber_Square/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

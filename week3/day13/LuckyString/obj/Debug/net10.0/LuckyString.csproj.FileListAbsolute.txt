@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\bin\Debug\net10.0\LuckyString.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\bin\Debug\net10.0\LuckyString.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\bin\Debug\net10.0\LuckyString.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\bin\Debug\net10.0\LuckyString.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\bin\Debug\net10.0\LuckyString.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\LuckyString.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\LuckyString.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\LuckyString.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\LuckyString.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\LuckyString.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\refint\LuckyString.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\LuckyString.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\LuckyString.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week3\day2\LuckyString\obj\Debug\net10.0\ref\LuckyString.dll

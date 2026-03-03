@@ -1,0 +1,14 @@
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\bin\Debug\net10.0\CheckNumericArr.exe
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\bin\Debug\net10.0\CheckNumericArr.deps.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\bin\Debug\net10.0\CheckNumericArr.runtimeconfig.json
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\bin\Debug\net10.0\CheckNumericArr.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\bin\Debug\net10.0\CheckNumericArr.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\CheckNumericArr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\CheckNumericArr.AssemblyInfoInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\CheckNumericArr.AssemblyInfo.cs
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\CheckNumericArr.csproj.CoreCompileInputs.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\CheckNumericArr.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\refint\CheckNumericArr.dll
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\CheckNumericArr.pdb
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\CheckNumericArr.genruntimeconfig.cache
+C:\Users\diksh\source\repos\Capgemini_CU_Sec3_NetWebAzure_DikshaS\week4\30.01.26\CheckNumericArr\obj\Debug\net10.0\ref\CheckNumericArr.dll

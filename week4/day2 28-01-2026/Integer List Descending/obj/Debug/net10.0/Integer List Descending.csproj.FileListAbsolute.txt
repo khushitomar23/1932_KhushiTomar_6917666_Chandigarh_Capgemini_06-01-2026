@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\bin\Debug\net10.0\Integer List Descending.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\bin\Debug\net10.0\Integer List Descending.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\bin\Debug\net10.0\Integer List Descending.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\bin\Debug\net10.0\Integer List Descending.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\bin\Debug\net10.0\Integer List Descending.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\Integer List Descending.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\Integer List Descending.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\Integer List Descending.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\Integer List Descending.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\Integer List Descending.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\refint\Integer List Descending.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\Integer List Descending.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\Integer List Descending.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day 2 28-01-2026\Integer List Descending\obj\Debug\net10.0\ref\Integer List Descending.dll

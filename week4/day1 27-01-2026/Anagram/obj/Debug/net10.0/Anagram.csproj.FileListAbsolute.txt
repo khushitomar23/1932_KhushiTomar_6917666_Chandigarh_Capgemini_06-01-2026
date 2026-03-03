@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\bin\Debug\net10.0\Anagram.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\bin\Debug\net10.0\Anagram.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\bin\Debug\net10.0\Anagram.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\bin\Debug\net10.0\Anagram.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\bin\Debug\net10.0\Anagram.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\Anagram.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\Anagram.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\Anagram.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\Anagram.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\Anagram.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\refint\Anagram.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\Anagram.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\Anagram.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week4\day1 27-01-2026\Anagram\obj\Debug\net10.0\ref\Anagram.dll

@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\bin\Debug\net10.0\Maximum Total Team Strength.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\bin\Debug\net10.0\Maximum Total Team Strength.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\bin\Debug\net10.0\Maximum Total Team Strength.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\bin\Debug\net10.0\Maximum Total Team Strength.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\bin\Debug\net10.0\Maximum Total Team Strength.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\Maximum Total Team Strength.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\Maximum Total Team Strength.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\Maximum Total Team Strength.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\Maximum Total Team Strength.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\Maximum Total Team Strength.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\refint\Maximum Total Team Strength.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\Maximum Total Team Strength.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\Maximum Total Team Strength.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Maximum Total Team Strength\obj\Debug\net10.0\ref\Maximum Total Team Strength.dll

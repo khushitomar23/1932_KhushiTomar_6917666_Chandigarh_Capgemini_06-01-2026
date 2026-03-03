@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\clothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:clothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week3\\day1\\e-commerceproductcatalog\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC190CB-E02D-4B22-AE96-7F7C2FD597CB}|E-CommerceProductCatalog.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:01:55.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Order.cs",
+              "RelativeDocumentMoniker": "Order.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Order.cs",
+              "RelativeToolTip": "Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:01:40.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Cart.cs",
+              "RelativeDocumentMoniker": "Cart.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Cart.cs",
+              "RelativeToolTip": "Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:01:15.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Books.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Books.cs",
+              "RelativeDocumentMoniker": "Books.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Books.cs",
+              "RelativeToolTip": "Books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:01:03.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Clothing.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Clothing.cs",
+              "RelativeDocumentMoniker": "Clothing.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Clothing.cs",
+              "RelativeToolTip": "Clothing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:00:42.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Electronics.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Electronics.cs",
+              "RelativeDocumentMoniker": "Electronics.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Electronics.cs",
+              "RelativeToolTip": "Electronics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:00:10.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:59:54.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week3\\day1\\E-CommerceProductCatalog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:59:23.746Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

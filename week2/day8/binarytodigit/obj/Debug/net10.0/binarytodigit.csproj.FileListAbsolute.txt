@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\bin\Debug\net10.0\binarytodigit.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\bin\Debug\net10.0\binarytodigit.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\bin\Debug\net10.0\binarytodigit.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\bin\Debug\net10.0\binarytodigit.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\bin\Debug\net10.0\binarytodigit.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\binarytodigit.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\binarytodigit.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\binarytodigit.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\binarytodigit.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\binarytodigit.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\refint\binarytodigit.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\binarytodigit.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\binarytodigit.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day8\binarytodigit\obj\Debug\net10.0\ref\binarytodigit.dll

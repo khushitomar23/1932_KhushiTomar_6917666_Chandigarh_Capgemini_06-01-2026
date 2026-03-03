@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\bin\Debug\net10.0\armstrong.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\bin\Debug\net10.0\armstrong.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\bin\Debug\net10.0\armstrong.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\bin\Debug\net10.0\armstrong.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\bin\Debug\net10.0\armstrong.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\armstrong.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\armstrong.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\armstrong.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\armstrong.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\armstrong.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\refint\armstrong.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\armstrong.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\armstrong.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week1\day4\armstrong number\armstrong\obj\Debug\net10.0\ref\armstrong.dll

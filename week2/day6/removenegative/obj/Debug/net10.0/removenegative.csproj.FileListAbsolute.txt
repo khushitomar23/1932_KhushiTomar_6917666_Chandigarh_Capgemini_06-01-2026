@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\bin\Debug\net10.0\removenegative.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\bin\Debug\net10.0\removenegative.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\bin\Debug\net10.0\removenegative.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\bin\Debug\net10.0\removenegative.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\bin\Debug\net10.0\removenegative.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\removenegative.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\removenegative.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\removenegative.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\removenegative.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\removenegative.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\refint\removenegative.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\removenegative.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\removenegative.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day1\removenegative\obj\Debug\net10.0\ref\removenegative.dll

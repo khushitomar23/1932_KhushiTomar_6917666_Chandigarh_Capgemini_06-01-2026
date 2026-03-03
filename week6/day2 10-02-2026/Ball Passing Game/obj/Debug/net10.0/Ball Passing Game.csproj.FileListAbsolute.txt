@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\bin\Debug\net10.0\Ball Passing Game.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\bin\Debug\net10.0\Ball Passing Game.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\bin\Debug\net10.0\Ball Passing Game.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\bin\Debug\net10.0\Ball Passing Game.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\bin\Debug\net10.0\Ball Passing Game.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\Ball Passing Game.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\Ball Passing Game.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\Ball Passing Game.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\Ball Passing Game.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\Ball Passing Game.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\refint\Ball Passing Game.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\Ball Passing Game.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\Ball Passing Game.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Ball Passing Game\obj\Debug\net10.0\ref\Ball Passing Game.dll

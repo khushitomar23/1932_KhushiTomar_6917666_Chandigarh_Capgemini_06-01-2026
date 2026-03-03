@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\bin\Debug\net10.0\Score Couple Array.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\bin\Debug\net10.0\Score Couple Array.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\bin\Debug\net10.0\Score Couple Array.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\bin\Debug\net10.0\Score Couple Array.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\bin\Debug\net10.0\Score Couple Array.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\Score Couple Array.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\Score Couple Array.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\Score Couple Array.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\Score Couple Array.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\Score Couple Array.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\refint\Score Couple Array.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\Score Couple Array.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\Score Couple Array.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week6\day2 10-02-2025\Score Couple Array\obj\Debug\net10.0\ref\Score Couple Array.dll

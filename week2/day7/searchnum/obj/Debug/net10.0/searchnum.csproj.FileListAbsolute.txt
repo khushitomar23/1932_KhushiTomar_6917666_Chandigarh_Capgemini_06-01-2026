@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\bin\Debug\net10.0\searchnum.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\bin\Debug\net10.0\searchnum.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\bin\Debug\net10.0\searchnum.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\bin\Debug\net10.0\searchnum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\bin\Debug\net10.0\searchnum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\searchnum.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\searchnum.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\searchnum.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\searchnum.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\searchnum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\refint\searchnum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\searchnum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\searchnum.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day2\searchnum\obj\Debug\net10.0\ref\searchnum.dll

@@ -1,0 +1,14 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\bin\Debug\net10.0\maximumandminimum.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\bin\Debug\net10.0\maximumandminimum.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\bin\Debug\net10.0\maximumandminimum.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\bin\Debug\net10.0\maximumandminimum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\bin\Debug\net10.0\maximumandminimum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\maximumandminimum.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\maximumandminimum.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\maximumandminimum.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\maximumandminimum.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\maximumandminimum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\refint\maximumandminimum.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\maximumandminimum.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\maximumandminimum.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week2\day9\maximumandminimum\obj\Debug\net10.0\ref\maximumandminimum.dll
