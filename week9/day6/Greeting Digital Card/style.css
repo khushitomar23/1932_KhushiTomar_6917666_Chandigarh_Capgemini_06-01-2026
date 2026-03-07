@@ -1,0 +1,62 @@
+body{
+margin:0;
+padding:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family: 'Comic Sans MS', cursive;
+background: linear-gradient(120deg,#ffd6e8,#ffc2d1,#ffe5ec);
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:25px;
+text-align:center;
+width:380px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+animation: float 3s ease-in-out infinite;
+}
+
+h1{
+color:#ff4d88;
+}
+
+.message{
+font-size:18px;
+margin:15px 0;
+color:#555;
+}
+
+button{
+background:#ff80ab;
+border:none;
+padding:12px 20px;
+border-radius:20px;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#ff4d88;
+transform:scale(1.05);
+}
+
+#surprise{
+margin-top:20px;
+font-size:18px;
+color:#c2185b;
+}
+
+.hidden{
+display:none;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-10px);}
+100%{transform:translateY(0px);}
+}
