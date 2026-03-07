@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "REAL ESTATTE LISTING MANAGEMENT/1.0.0": {
+        "runtime": {
+          "REAL ESTATTE LISTING MANAGEMENT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "REAL ESTATTE LISTING MANAGEMENT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
