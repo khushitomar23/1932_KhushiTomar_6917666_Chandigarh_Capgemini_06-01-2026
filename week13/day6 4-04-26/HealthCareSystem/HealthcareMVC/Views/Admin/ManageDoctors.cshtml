@@ -1,0 +1,172 @@
+@model List<DoctorViewModel>
+@{
+    ViewData["Title"] = "Manage Doctors";
+    Layout = "_Layout";
+}
+
+<div class="manage-doctors">
+    <div class="page-header">
+        <h1 class="page-title">Manage Doctors 👨‍⚕️</h1>
+        <a href="/admin/adddoctor" class="btn btn-primary">➕ Add New Doctor</a>
+    </div>
+
+    @if (TempData["Message"] != null)
+    {
+        <div style="background: #efe; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; color: #3c3;">
+            <p>✅ @TempData["Message"]</p>
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div style="background: #fee; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; color: #c33;">
+            <p>⚠️ @TempData["Error"]</p>
+        </div>
+    }
+
+    @if (ViewBag.Error != null)
+    {
+        <div style="background: #fee; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; color: #c33;">
+            <p>⚠️ @ViewBag.Error</p>
+        </div>
+    }
+
+    @if (Model == null || Model.Count == 0)
+    {
+        <div class="no-data">
+            <p>📭 No doctors registered yet.</p>
+            <a href="/admin/adddoctor" class="btn btn-primary">Add First Doctor</a>
+        </div>
+    }
+    else
+    {
+        <div class="doctors-table" style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <thead>
+                    <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Name</th>
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Email</th>
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Department</th>
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Specialization</th>
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Experience</th>
+                        <th style="padding: 1rem; text-align: center; border-bottom: 2px solid #764ba2;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var doctor in Model)
+                    {
+                        <tr style="border-bottom: 1px solid #f0f0f0; transition: background 0.2s;">
+                            <td style="padding: 1rem;">
+                                <strong>@doctor.FullName</strong>
+                            </td>
+                            <td style="padding: 1rem;">
+                                @doctor.Email
+                            </td>
+                            <td style="padding: 1rem;">
+                                @doctor.DepartmentName
+                            </td>
+                            <td style="padding: 1rem;">
+                                @doctor.Specialization
+                            </td>
+                            <td style="padding: 1rem;">
+                                @doctor.ExperienceYears years
+                            </td>
+                            <td style="padding: 1rem; text-align: center;">
+                                <a href="/admin/editdoctor/@doctor.DoctorId" class="btn-small btn-edit">Edit</a>
+                                <form method="post" action="/admin/deletedoctor/@doctor.DoctorId" style="display: inline-block;" onsubmit="return confirm('Are you sure?');">
+                                    <button type="submit" class="btn-small btn-delete" style="background: #dc3545; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer;">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<style>
+    .manage-doctors {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+        color: #333;
+        margin: 0;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.2s;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-small {
+        padding: 0.4rem 0.8rem;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 600;
+        transition: all 0.2s;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-edit {
+        background: #007bff;
+        color: white;
+        margin-right: 0.5rem;
+    }
+
+    .btn-edit:hover {
+        background: #0056b3;
+    }
+
+    .btn-delete {
+        background: #dc3545;
+        color: white;
+    }
+
+    .btn-delete:hover {
+        background: #c82333;
+    }
+
+    .no-data {
+        text-align: center;
+        padding: 3rem;
+        color: #999;
+        font-size: 1.1rem;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    table tr:hover {
+        background: #f9f9f9;
+    }
+</style>

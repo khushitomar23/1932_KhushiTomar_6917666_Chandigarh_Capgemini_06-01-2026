@@ -1,0 +1,14 @@
+﻿@model UniversityManagement.Models.Course
+
+<h2>Delete Course</h2>
+
+<p>Are you sure?</p>
+
+<p>@Model.Title</p>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="CourseId" />
+    <button type="submit">Delete</button>
+</form>
+
+<a asp-action="Index">Cancel</a>

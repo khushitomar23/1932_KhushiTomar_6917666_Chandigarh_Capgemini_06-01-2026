@@ -1,0 +1,28 @@
+﻿@model EmployeeProjectManagement.Models.Employee
+
+<h2>Add Employee</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label>Employee Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Department</label>
+        <select asp-for="DepartmentId" class="form-control">
+            @foreach (var dept in ViewBag.Departments)
+            {
+                <option value="@dept.DepartmentId">@dept.Name</option>
+            }
+        </select>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">Create</button>
+
+</form>
+
+<a asp-action="Index">Back to List</a>

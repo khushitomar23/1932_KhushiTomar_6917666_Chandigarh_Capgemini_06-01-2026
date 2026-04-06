@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\models\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:models\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\\Week-10_9th_March_to_13th_March_2026\\Day_3_11th_March_2026\\HospitalManagementSystem\\Models\\EmployeeDataBaseContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\hospitalmanagementsystem\\hospitalmanagementsystem\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E6541B-1E9D-51B5-63CC-B72BDAD12DEC}|HospitalManagementSystem.csproj|solutionrelative:controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T05:27:24.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointments\\Index.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "Views\\Appointments\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T05:21:53.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Appointments\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointments\\Create.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Appointments\\Create.cshtml",
+              "RelativeToolTip": "Views\\Appointments\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T05:20:46.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentsController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:19:53.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:19:05.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Controllers\\PatientsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:18:11.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:16:32.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T05:15:41.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Models\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\HospitalDbContext.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\HospitalManagementSystem\\HospitalManagementSystem\\Models\\HospitalDbContext.cs",
+              "RelativeToolTip": "Models\\HospitalDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:14:48.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDataBaseContext.cs",
+              "DocumentMoniker": "E:\\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\\Week-10_9th_March_to_13th_March_2026\\Day_3_11th_March_2026\\HospitalManagementSystem\\Models\\EmployeeDataBaseContext.cs",
+              "ToolTip": "E:\\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\\Week-10_9th_March_to_13th_March_2026\\Day_3_11th_March_2026\\HospitalManagementSystem\\Models\\EmployeeDataBaseContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:13:19.223Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

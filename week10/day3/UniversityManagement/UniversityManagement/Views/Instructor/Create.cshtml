@@ -1,0 +1,21 @@
+﻿@model UniversityManagement.Models.Instructor
+
+<h2>Create Instructor</h2>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label asp-for="DepartmentId"></label>
+        <input asp-for="DepartmentId" />
+    </div>
+
+    <br />
+
+    <button type="submit">Create</button>
+
+</form>

@@ -1,0 +1,32 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace HotelBookingSystem.Controllers
+{
+    public class RoomsController : Controller
+    {
+        private readonly HotelContext _context;
+
+        public RoomsController(HotelContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index()
+        {
+            return View(_context.Rooms.ToList());
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Room room)
+        {
+            _context.Rooms.Add(room);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+    }
+}

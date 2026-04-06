@@ -1,0 +1,409 @@
+@{
+    ViewData["Title"] = "My Prescriptions";
+    Layout = "_Layout";
+}
+
+<div class="prescriptions-container">
+    <h1 class="page-title">📋 My Prescriptions</h1>
+    
+    <div class="info-message">
+        <p>View and manage all your active and expired prescriptions from your doctors.</p>
+    </div>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <div class="prescriptions-list">
+            @foreach (var prescription in Model)
+            {
+                <div class="prescription-card">
+                    <div class="prescription-header">
+                        <h3>@prescription.MedicineName</h3>
+                        <span class="status-badge @(prescription.Status == "Active" ? "status-active" : "status-expired")">
+                            @prescription.Status
+                        </span>
+                    </div>
+
+                    <div class="prescription-details">
+                        <div class="detail-row">
+                            <label>👨‍⚕️ Doctor:</label>
+                            <span>@prescription.DoctorName</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <label>💊 Dosage:</label>
+                            <span>@prescription.Dosage</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <label>⏰ Frequency:</label>
+                            <span>@prescription.Frequency</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <label>📅 Duration:</label>
+                            <span>@prescription.StartDate to @prescription.EndDate</span>
+                        </div>
+                    </div>
+
+                    <div class="prescription-actions">
+                        <button class="btn btn-primary" onclick="viewPrescriptionDetails('@prescription.MedicineName', '@prescription.DoctorName', '@prescription.Dosage', '@prescription.Frequency', '@prescription.StartDate', '@prescription.EndDate', '@prescription.Status')">👁️ View Details</button>
+                        <button class="btn btn-secondary">🔄 Refill</button>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="no-data-message">
+            <p>📭 No prescriptions found. Once your doctor prescribes medications, they will appear here.</p>
+        </div>
+    }
+</div>
+
+<style>
+    .prescriptions-container {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .page-title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .info-message {
+        background: #e3f2fd;
+        border-left: 4px solid #2196f3;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 4px;
+        color: #1565c0;
+    }
+
+    .prescriptions-list {
+        display: grid;
+        gap: 1.5rem;
+    }
+
+    .prescription-card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .prescription-card:hover {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .prescription-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+    .prescription-header h3 {
+        margin: 0;
+        color: #333;
+        font-size: 1.3rem;
+    }
+
+    .status-badge {
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+
+    .status-active {
+        background: #4caf50;
+        color: white;
+    }
+
+    .status-expired {
+        background: #f44336;
+        color: white;
+    }
+
+    .prescription-details {
+        margin-bottom: 1rem;
+    }
+
+    .detail-row {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        margin-bottom: 0.8rem;
+        gap: 1rem;
+    }
+
+    .detail-row label {
+        font-weight: 600;
+        color: #555;
+    }
+
+    .detail-row span {
+        color: #333;
+    }
+
+    .prescription-actions {
+        display: flex;
+        gap: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        flex: 1;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+    }
+
+    .btn-secondary:hover {
+        background: #e0e0e0;
+    }
+
+    .no-data-message {
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 8px;
+        color: #856404;
+    }
+
+    @@media (max-width: 600px) {
+        .prescriptions-container {
+            padding: 1rem;
+        }
+
+        .detail-row {
+            grid-template-columns: 1fr;
+        }
+
+        .prescription-header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .prescription-actions {
+            flex-direction: column;
+        }
+
+        .btn {
+            width: 100%;
+        }
+    }
+
+    /* Modal Styles */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        animation: fadeIn 0.3s ease;
+    }
+
+    .modal.show {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-content {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        max-width: 500px;
+        width: 90%;
+        animation: slideIn 0.3s ease;
+    }
+
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+    .modal-header h2 {
+        margin: 0;
+        color: #333;
+        font-size: 1.5rem;
+    }
+
+    .close-btn {
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #999;
+        transition: color 0.3s ease;
+    }
+
+    .close-btn:hover {
+        color: #333;
+    }
+
+    .modal-body {
+        margin-bottom: 1.5rem;
+    }
+
+    .modal-detail {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        margin-bottom: 1rem;
+        gap: 1rem;
+    }
+
+    .modal-detail label {
+        font-weight: 600;
+        color: #555;
+    }
+
+    .modal-detail span {
+        color: #333;
+        word-break: break-word;
+    }
+
+    .modal-footer {
+        text-align: right;
+        padding-top: 1rem;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .modal-close-btn {
+        padding: 0.6rem 1.5rem;
+        background: #667eea;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    .modal-close-btn:hover {
+        background: #764ba2;
+        transform: translateY(-2px);
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @@keyframes slideIn {
+        from {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+</style>
+
+<!-- Prescription Details Modal -->
+<div id="prescriptionModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalMedicineName"></h2>
+            <button class="close-btn" onclick="closePrescriptionModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-detail">
+                <label>👨‍⚕️ Doctor:</label>
+                <span id="modalDoctorName"></span>
+            </div>
+            <div class="modal-detail">
+                <label>💊 Dosage:</label>
+                <span id="modalDosage"></span>
+            </div>
+            <div class="modal-detail">
+                <label>⏰ Frequency:</label>
+                <span id="modalFrequency"></span>
+            </div>
+            <div class="modal-detail">
+                <label>📅 Start Date:</label>
+                <span id="modalStartDate"></span>
+            </div>
+            <div class="modal-detail">
+                <label>📅 End Date:</label>
+                <span id="modalEndDate"></span>
+            </div>
+            <div class="modal-detail">
+                <label>📊 Status:</label>
+                <span id="modalStatus"></span>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="modal-close-btn" onclick="closePrescriptionModal()">Close</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function viewPrescriptionDetails(medicineName, doctorName, dosage, frequency, startDate, endDate, status) {
+        document.getElementById('modalMedicineName').textContent = medicineName;
+        document.getElementById('modalDoctorName').textContent = doctorName;
+        document.getElementById('modalDosage').textContent = dosage;
+        document.getElementById('modalFrequency').textContent = frequency;
+        document.getElementById('modalStartDate').textContent = startDate;
+        document.getElementById('modalEndDate').textContent = endDate;
+        document.getElementById('modalStatus').textContent = status;
+        
+        document.getElementById('prescriptionModal').classList.add('show');
+    }
+
+    function closePrescriptionModal() {
+        document.getElementById('prescriptionModal').classList.remove('show');
+    }
+
+    // Close modal when clicking outside of it
+    window.onclick = function(event) {
+        var modal = document.getElementById('prescriptionModal');
+        if (event.target === modal) {
+            modal.classList.remove('show');
+        }
+    }
+</script>

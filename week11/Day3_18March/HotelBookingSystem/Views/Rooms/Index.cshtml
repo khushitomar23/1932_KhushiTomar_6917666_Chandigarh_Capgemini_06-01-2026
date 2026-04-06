@@ -1,0 +1,26 @@
+﻿@model List<HotelBookingSystem.Models.Room>
+
+<h2>Rooms</h2>
+
+<a href="/Rooms/Create" class="btn btn-primary mb-3">Add Room</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Room Number</th>
+        <th>Type</th>
+        <th>Price</th>
+        <th>Image</th>
+    </tr>
+
+    @foreach (var room in Model)
+    {
+        <tr>
+            <td>@room.RoomNumber</td>
+            <td>@room.Type</td>
+            <td>@room.Price</td>
+            <td>
+                <img src="@room.ImageUrl" width="100" />
+            </td>
+        </tr>
+    }
+</table>

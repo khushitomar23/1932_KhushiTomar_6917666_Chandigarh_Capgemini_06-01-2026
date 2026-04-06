@@ -1,0 +1,663 @@
+@{
+    ViewData["Title"] = "Billing & Invoices";
+    Layout = "_Layout";
+}
+
+<div class="billing-container">
+    <h1 class="page-title">💰 Billing & Invoices</h1>
+    
+    <div class="info-message">
+        <p>View and manage all your medical bills and payments. Download invoices and track payment status.</p>
+    </div>
+
+    <div class="billing-summary">
+        <div class="summary-card">
+            <div class="summary-icon">💵</div>
+            <div class="summary-content">
+                <p class="summary-label">Total Amount Due</p>
+                <p class="summary-value">₹3,300</p>
+            </div>
+        </div>
+        <div class="summary-card pending">
+            <div class="summary-icon">⏳</div>
+            <div class="summary-content">
+                <p class="summary-label">Pending Payments</p>
+                <p class="summary-value">2 Bills</p>
+            </div>
+        </div>
+        <div class="summary-card paid">
+            <div class="summary-icon">✅</div>
+            <div class="summary-content">
+                <p class="summary-label">Paid Amount</p>
+                <p class="summary-value">₹1,700</p>
+            </div>
+        </div>
+    </div>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <div class="bills-list">
+            <table class="bills-table">
+                <thead>
+                    <tr>
+                        <th>Bill ID</th>
+                        <th>Date</th>
+                        <th>Consultation Fee</th>
+                        <th>Medicine Charges</th>
+                        <th>Total Amount</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var bill in Model)
+                    {
+                        <tr class="bill-row @(bill.Status == "Paid" ? "status-paid" : "status-pending")" id="billRow_@bill.BillId">
+                            <td>#@bill.BillId</td>
+                            <td>@bill.Date</td>
+                            <td>₹@bill.ConsultationFee</td>
+                            <td>₹@bill.MedicineCharges</td>
+                            <td class="amount-column">₹@bill.TotalAmount</td>
+                            <td>
+                                <span class="status-badge-table @(bill.Status == "Paid" ? "badge-success" : "badge-warning")" id="statusBadge_@bill.BillId">
+                                    @bill.Status
+                                </span>
+                            </td>
+                            <td>
+                                <div class="action-buttons" id="actionButtons_@bill.BillId">
+                                    <button class="btn-action download" title="View Bill Details" onclick="viewBillDetails(@bill.BillId, '@bill.Date', '@bill.ConsultationFee', '@bill.MedicineCharges', '@bill.TotalAmount', '@bill.Status')">📋</button>
+                                    @if (bill.Status == "Pending")
+                                    {
+                                        <button class="btn-action pay" title="Pay Now" onclick="openPaymentModal(@bill.BillId, '₹@bill.TotalAmount', @bill.TotalAmount)">💳</button>
+                                    }
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="no-data-message">
+            <p>📭 No bills found. Your billing information will appear here.</p>
+        </div>
+    }
+
+    <div class="billing-actions">
+        <button class="btn btn-primary">📥 Download All</button>
+        <button class="btn btn-secondary">💳 Pay Pending Bills</button>
+    </div>
+</div>
+
+<style>
+    .billing-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .page-title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .info-message {
+        background: #e3f2fd;
+        border-left: 4px solid #2196f3;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 4px;
+        color: #1565c0;
+    }
+
+    .billing-summary {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .summary-card {
+        background: white;
+        border-radius: 8px;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border-left: 4px solid #ff6b6b;
+    }
+
+    .summary-card.pending {
+        border-left-color: #ffa500;
+    }
+
+    .summary-card.paid {
+        border-left-color: #4caf50;
+    }
+
+    .summary-icon {
+        font-size: 2rem;
+    }
+
+    .summary-content {
+        flex: 1;
+    }
+
+    .summary-label {
+        margin: 0;
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .summary-value {
+        margin: 0.5rem 0 0 0;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .bills-list {
+        background: white;
+        border-radius: 8px;
+        overflow-x: auto;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 2rem;
+    }
+
+    .bills-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .bills-table thead th {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .bills-table tbody tr {
+        border-bottom: 1px solid #f0f0f0;
+        transition: background 0.3s ease;
+    }
+
+    .bills-table tbody tr:hover {
+        background: #f9f9f9;
+    }
+
+    .bill-row {
+        padding: 0;
+    }
+
+    .bill-row.status-paid {
+        opacity: 0.9;
+    }
+
+    .bills-table td {
+        padding: 1rem;
+        color: #333;
+    }
+
+    .amount-column {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .status-badge-table {
+        padding: 0.4rem 0.8rem;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+
+    .badge-success {
+        background: #d4edda;
+        color: #155724;
+    }
+
+    .badge-warning {
+        background: #fff3cd;
+        color: #856404;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .btn-action {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        padding: 0.4rem 0.8rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-action.download:hover {
+        background: #e3f2fd;
+        transform: scale(1.1);
+    }
+
+    .btn-action.pay:hover {
+        background: #e8f5e9;
+        transform: scale(1.1);
+    }
+
+    .billing-actions {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+    }
+
+    .btn-secondary:hover {
+        background: #e0e0e0;
+    }
+
+    .no-data-message {
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 8px;
+        color: #856404;
+    }
+
+    @@media (max-width: 768px) {
+        .billing-container {
+            padding: 1rem;
+        }
+
+        .billing-summary {
+            grid-template-columns: 1fr;
+        }
+
+        .bills-table {
+            font-size: 0.9rem;
+        }
+
+        .bills-table th,
+        .bills-table td {
+            padding: 0.75rem 0.5rem;
+        }
+
+        .billing-actions {
+            flex-direction: column;
+        }
+
+        .btn {
+            width: 100%;
+        }
+    }
+
+    /* Modal Styles */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        animation: fadeIn 0.3s ease;
+    }
+
+    .modal.show {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-content {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        max-width: 500px;
+        width: 90%;
+        animation: slideIn 0.3s ease;
+    }
+
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+    .modal-header h2 {
+        margin: 0;
+        color: #333;
+        font-size: 1.5rem;
+    }
+
+    .close-btn {
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #999;
+        transition: color 0.3s ease;
+    }
+
+    .close-btn:hover {
+        color: #333;
+    }
+
+    .modal-body {
+        margin-bottom: 1.5rem;
+    }
+
+    .modal-detail {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        margin-bottom: 1.2rem;
+        gap: 1rem;
+    }
+
+    .modal-detail label {
+        font-weight: 600;
+        color: #555;
+    }
+
+    .modal-detail span {
+        color: #333;
+        word-break: break-word;
+        font-weight: 500;
+    }
+
+    .modal-footer {
+        padding-top: 1rem;
+        border-top: 1px solid #f0f0f0;
+        text-align: right;
+    }
+
+    .modal-btn {
+        padding: 0.6rem 1.5rem;
+        background: #667eea;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        margin-left: 0.5rem;
+    }
+
+    .modal-btn:hover {
+        background: #764ba2;
+        transform: translateY(-2px);
+    }
+
+    .modal-btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+    }
+
+    .modal-btn-secondary:hover {
+        background: #e0e0e0;
+    }
+
+    .payment-section {
+        background: #f9f9f9;
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .payment-method {
+        margin-bottom: 1rem;
+    }
+
+    .payment-method label {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .payment-method input[type="radio"] {
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @@keyframes slideIn {
+        from {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+</style>
+
+<!-- Bill Details Modal -->
+<div id="billModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>📄 Bill Details</h2>
+            <button class="close-btn" onclick="closeBillModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-detail">
+                <label>Bill ID:</label>
+                <span id="modalBillId"></span>
+            </div>
+            <div class="modal-detail">
+                <label>Date:</label>
+                <span id="modalBillDate"></span>
+            </div>
+            <div class="modal-detail">
+                <label>Consultation Fee:</label>
+                <span id="modalConsultationFee"></span>
+            </div>
+            <div class="modal-detail">
+                <label>Medicine Charges:</label>
+                <span id="modalMedicineCharges"></span>
+            </div>
+            <div class="modal-detail">
+                <label>Total Amount:</label>
+                <span id="modalTotalAmount" style="font-size: 1.2rem; color: #667eea;"></span>
+            </div>
+            <div class="modal-detail">
+                <label>Status:</label>
+                <span id="modalBillStatus"></span>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="modal-btn modal-btn-secondary" onclick="closeBillModal()">Close</button>
+            <button class="modal-btn">📥 Download PDF</button>
+        </div>
+    </div>
+</div>
+
+<!-- Payment Modal -->
+<div id="paymentModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>💳 Make Payment</h2>
+            <button class="close-btn" onclick="closePaymentModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-detail">
+                <label>Bill ID:</label>
+                <span id="paymentBillId"></span>
+            </div>
+            <div class="modal-detail">
+                <label>Amount:</label>
+                <span id="paymentAmount" style="font-size: 1.3rem; color: #667eea; font-weight: 700;"></span>
+            </div>
+            
+            <div class="payment-section">
+                <h3 style="margin-top: 0; margin-bottom: 1rem; color: #333;">Select Payment Method</h3>
+                
+                <div class="payment-method">
+                    <label>
+                        <input type="radio" name="paymentMethod" value="creditcard" checked>
+                        💳 Credit Card / Debit Card
+                    </label>
+                </div>
+                
+                <div class="payment-method">
+                    <label>
+                        <input type="radio" name="paymentMethod" value="upi">
+                        📱 UPI
+                    </label>
+                </div>
+                
+                <div class="payment-method">
+                    <label>
+                        <input type="radio" name="paymentMethod" value="netbanking">
+                        🏦 Net Banking
+                    </label>
+                </div>
+                
+                <div class="payment-method">
+                    <label>
+                        <input type="radio" name="paymentMethod" value="wallet">
+                        👛 Digital Wallet
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="modal-btn modal-btn-secondary" onclick="closePaymentModal()">Cancel</button>
+            <button class="modal-btn" onclick="processPayment()">💰 Pay Now</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    let currentPaymentBillId = null;
+    let currentPaymentAmount = null;
+
+    function viewBillDetails(billId, date, consultationFee, medicineCharges, totalAmount, status) {
+        document.getElementById('modalBillId').textContent = '#' + billId;
+        document.getElementById('modalBillDate').textContent = date;
+        document.getElementById('modalConsultationFee').textContent = '₹' + consultationFee;
+        document.getElementById('modalMedicineCharges').textContent = '₹' + medicineCharges;
+        document.getElementById('modalTotalAmount').textContent = '₹' + totalAmount;
+        document.getElementById('modalBillStatus').innerHTML = '<span class="status-badge-table ' + (status === 'Paid' ? 'badge-success' : 'badge-warning') + '">' + status + '</span>';
+        
+        document.getElementById('billModal').classList.add('show');
+    }
+
+    function closeBillModal() {
+        document.getElementById('billModal').classList.remove('show');
+    }
+
+    function openPaymentModal(billId, billAmount, numericAmount) {
+        currentPaymentBillId = billId;
+        currentPaymentAmount = numericAmount;
+        
+        document.getElementById('paymentBillId').textContent = '#' + billId;
+        document.getElementById('paymentAmount').textContent = billAmount;
+        document.querySelector('input[name="paymentMethod"][value="creditcard"]').checked = true;
+        
+        document.getElementById('paymentModal').classList.add('show');
+    }
+
+    function closePaymentModal() {
+        document.getElementById('paymentModal').classList.remove('show');
+    }
+
+    function processPayment() {
+        const method = document.querySelector('input[name="paymentMethod"]:checked').value;
+        const methodNames = {
+            'creditcard': 'Credit Card',
+            'upi': 'UPI',
+            'netbanking': 'Net Banking',
+            'wallet': 'Digital Wallet'
+        };
+        
+        // Show success message
+        alert('✅ Payment Successful!\n\nAmount: ₹' + currentPaymentAmount + '\nMethod: ' + methodNames[method] + '\nBill #' + currentPaymentBillId + '\n\nYour bill status has been updated to Paid.');
+        
+        // Update the bill status in the table
+        const billRow = document.getElementById('billRow_' + currentPaymentBillId);
+        const statusBadge = document.getElementById('statusBadge_' + currentPaymentBillId);
+        const actionButtons = document.getElementById('actionButtons_' + currentPaymentBillId);
+        
+        if (billRow && statusBadge) {
+            // Update row class
+            billRow.classList.remove('status-pending');
+            billRow.classList.add('status-paid');
+            
+            // Update status badge
+            statusBadge.classList.remove('badge-warning');
+            statusBadge.classList.add('badge-success');
+            statusBadge.textContent = 'Paid';
+            
+            // Remove payment button
+            if (actionButtons) {
+                const payButton = actionButtons.querySelector('.btn-action.pay');
+                if (payButton) {
+                    payButton.remove();
+                }
+            }
+        }
+        
+        closePaymentModal();
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        var billModal = document.getElementById('billModal');
+        var paymentModal = document.getElementById('paymentModal');
+        if (event.target === billModal) {
+            billModal.classList.remove('show');
+        }
+        if (event.target === paymentModal) {
+            paymentModal.classList.remove('show');
+        }
+    }
+</script>

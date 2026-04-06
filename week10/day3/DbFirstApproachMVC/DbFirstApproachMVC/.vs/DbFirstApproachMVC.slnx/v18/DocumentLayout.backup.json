@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\dbfirstapproachmvc\\dbfirstapproachmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\dbfirstapproachmvc\\dbfirstapproachmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\dbfirstapproachmvc\\dbfirstapproachmvc\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|solutionrelative:controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\dbfirstapproachmvc\\dbfirstapproachmvc\\models\\libdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|solutionrelative:models\\libdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\dbfirstapproachmvc\\dbfirstapproachmvc\\controllers\\borrowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|solutionrelative:controllers\\borrowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\dbfirstapproachmvc\\dbfirstapproachmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day3\\dbfirstapproachmvc\\dbfirstapproachmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67270580-45A9-3208-5FEE-EB0020DA128C}|DbFirstApproachMVC.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BorrowersController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Controllers\\BorrowersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BorrowersController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Controllers\\BorrowersController.cs",
+              "RelativeToolTip": "Controllers\\BorrowersController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T06:39:11.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T06:35:30.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T06:33:05.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorsController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADgvxcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T06:31:44.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T05:27:00.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:25:34.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibDbContext.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Models\\LibDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\LibDbContext.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day3\\DbFirstApproachMVC\\DbFirstApproachMVC\\Models\\LibDbContext.cs",
+              "RelativeToolTip": "Models\\LibDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wCAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T05:24:05.281Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

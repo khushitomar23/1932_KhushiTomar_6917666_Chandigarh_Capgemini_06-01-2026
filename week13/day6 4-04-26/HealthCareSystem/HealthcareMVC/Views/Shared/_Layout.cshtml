@@ -1,0 +1,68 @@
+@{
+    ViewData["Title"] = "Healthcare Appointment System";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <h1 class="navbar-brand">💗 HealthCare</h1>
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link">Home</a></li>
+                @if (Context.Session.GetInt32("UserId") == null)
+                {
+                    <li><a href="/auth/login" class="nav-link">Login</a></li>
+                    <li><a href="/auth/register" class="nav-link">Register</a></li>
+                }
+                else
+                {
+                    var userRole = Context.Session.GetString("UserRole");
+                    var userName = Context.Session.GetString("UserName");
+
+                    @if (userRole == "Doctor")
+                    {
+                        <li><a href="/patients" class="nav-link">Patients</a></li>
+                        <li><a href="/appointments" class="nav-link">My Appointment List</a></li>
+                    }
+                    else if (userRole == "Patient")
+                    {
+                        <li><a href="/doctors" class="nav-link">Doctors</a></li>
+                        <li><a href="/appointments" class="nav-link">My Appointments</a></li>
+                        <li><a href="/patients/prescriptions" class="nav-link">📋 Prescriptions</a></li>
+                        <li><a href="/patients/billing" class="nav-link">💰 Billing</a></li>
+                    }
+                    else if (userRole == "Admin")
+                    {
+                        <li><a href="/admin/dashboard" class="nav-link">📊 Dashboard</a></li>
+                        <li><a href="/admin/managedoctors" class="nav-link">Manage Doctors</a></li>
+                        <li><a href="/admin/managepatients" class="nav-link">Manage Patients</a></li>
+                    }
+
+                    <li style="margin-left: auto;">
+                        <span class="nav-link" style="cursor: default;">👤 @userName (@userRole)</span>
+                    </li>
+                    <li><a href="/auth/logout" class="nav-link logout-btn">🚪 Logout</a></li>
+                }
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <p>💕 Made with love by Khushi Tomar 💕</p>
+    </footer>
+
+    <script src="~/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LearnScript — Login</title>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #fdf6f0;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .page { display: flex; width: 100%; min-height: 100vh; }
+  .left {
+    width: 45%;
+    background: linear-gradient(160deg, #a8d5a2 0%, #f9c6d0 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+  }
+  .brand {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 4rem;
+    color: #3a5a3a;
+    margin-bottom: 1rem;
+  }
+  .tagline {
+    font-size: 1rem;
+    color: #4a7a4a;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  .deco {
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    margin-top: 2rem;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 3rem;
+    color: #3a5a3a;
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background: #fdf6f0;
+  }
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+  .card h2 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2.5rem;
+    color: #c06080;
+    margin-bottom: 0.25rem;
+  }
+  .card p { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
+  .form-group { margin-bottom: 1.25rem; }
+  label { display: block; font-size: 0.8rem; color: #666; margin-bottom: 0.4rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1.5px solid #e8d5dc;
+    border-radius: 12px;
+    background: #fff;
+    font-size: 0.95rem;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  input:focus { border-color: #c06080; }
+  .error { color: #c06080; font-size: 0.8rem; margin-top: 0.3rem; display: none; }
+  .btn {
+    width: 100%;
+    padding: 0.85rem;
+    background: linear-gradient(135deg, #a8d5a2, #c06080);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    letter-spacing: 0.03em;
+    transition: opacity 0.2s;
+  }
+  .btn:hover { opacity: 0.9; }
+  .switch { text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #888; }
+  .switch a { color: #c06080; text-decoration: none; font-weight: 500; }
+  .msg { padding: 0.75rem; border-radius: 10px; margin-bottom: 1rem; font-size: 0.85rem; display: none; }
+  .msg.success { background: #e8f5e8; color: #3a7a3a; }
+  .msg.error-msg { background: #fde8ee; color: #c06080; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="left">
+    <div class="brand">LearnScript</div>
+    <div class="tagline">Where knowledge meets elegance</div>
+    <div class="deco">✦</div>
+  </div>
+  <div class="right">
+    <div class="card">
+      <h2>Welcome back</h2>
+      <p>Sign in to continue your learning journey</p>
+      <div class="msg" id="msg"></div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="email" placeholder="you@example.com">
+        <div class="error" id="email-err">Please enter a valid email</div>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Min. 6 characters">
+        <div class="error" id="pass-err">Password must be at least 6 characters</div>
+      </div>
+      <button class="btn" onclick="handleLogin()">Sign In</button>
+      <div class="switch">Don't have an account? <a href="register.html">Register</a></div>
+      <div class="switch" style="margin-top:0.5rem"><a href="courses.html">Browse Courses →</a></div>
+    </div>
+  </div>
+</div>
+<script>
+  const API = 'http://localhost:5170';
+  async function handleLogin() {
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value.trim();
+    let valid = true;
+    document.getElementById('email-err').style.display = 'none';
+    document.getElementById('pass-err').style.display = 'none';
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      document.getElementById('email-err').style.display = 'block'; valid = false;
+    }
+    if (password.length < 6) {
+      document.getElementById('pass-err').style.display = 'block'; valid = false;
+    }
+    if (!valid) return;
+    try {
+      const res = await fetch(`${API}/api/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        localStorage.setItem('token', data.token);
+        localStorage.setItem('username', data.username);
+        localStorage.setItem('role', data.role);
+        showMsg('Login successful! Redirecting...', 'success');
+        setTimeout(() => window.location.href = 'courses.html', 1000);
+      } else {
+        showMsg(data.error || 'Login failed', 'error-msg');
+      }
+    } catch { showMsg('Server error. Is the API running?', 'error-msg'); }
+  }
+  function showMsg(text, type) {
+    const m = document.getElementById('msg');
+    m.textContent = text; m.className = `msg ${type}`; m.style.display = 'block';
+  }
+</script>
+</body>
+</html>

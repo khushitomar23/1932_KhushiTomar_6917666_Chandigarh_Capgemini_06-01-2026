@@ -1,0 +1,384 @@
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Login - SmartCare Health";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .auth-wrapper {
+            display: flex;
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .auth-left {
+            flex: 1;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 500px;
+        }
+
+        .auth-left h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .auth-left p {
+            font-size: 1.1em;
+            opacity: 0.95;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .auth-left ul {
+            list-style: none;
+            margin-top: 30px;
+        }
+
+        .auth-left li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-size: 1em;
+        }
+
+        .auth-left li:before {
+            content: "✓";
+            margin-right: 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .auth-right {
+            flex: 1;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .auth-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .brand-logo {
+            font-size: 2em;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .auth-header h1 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .auth-header p {
+            color: #999;
+            font-size: 0.95em;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #eee;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-input.error {
+            border-color: #ff6b6b;
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+
+        .remember-forgot a {
+            color: #667eea;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .remember-forgot a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+
+        .alert-danger {
+            background: #ffe0e0;
+            color: #d32f2f;
+            border-left: 4px solid #d32f2f;
+        }
+
+        .alert p {
+            margin: 5px 0;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.95em;
+        }
+
+        .btn-primary {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .auth-footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .auth-footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .auth-footer a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95em;
+        }
+
+        .back-link:hover {
+            color: #764ba2;
+        }
+
+        .footer-text {
+            text-align: center;
+            color: #999;
+            font-size: 0.8em;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        @@media (max-width: 768px) {
+            .auth-wrapper {
+                flex-direction: column;
+            }
+
+            .auth-left {
+                padding: 40px 30px;
+                min-height: auto;
+            }
+
+            .auth-left h2 {
+                font-size: 2em;
+            }
+
+            .auth-right {
+                padding: 40px 30px;
+            }
+
+            .auth-header h1 {
+                font-size: 1.5em;
+            }
+
+            .remember-forgot {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-wrapper">
+        <!-- Left Side -->
+        <div class="auth-left">
+            <div>
+                <h2>Welcome Back!</h2>
+                <p>Access your SmartCare Health account to manage your appointments, medical records, and healthcare needs all in one place.</p>
+                <ul>
+                    <li>Quick and secure login</li>
+                    <li>View your medical history</li>
+                    <li>Schedule appointments easily</li>
+                    <li>Connect with healthcare professionals</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="auth-right">
+            <a href="/" class="back-link">← Back to Home</a>
+
+            <div class="auth-header">
+                <div class="brand-logo">🏥 SmartCare Health</div>
+                <h1>Login</h1>
+                <p>Sign in to your account</p>
+            </div>
+
+            <form method="post" class="auth-form" id="loginForm" novalidate>
+                @if (ViewData.ModelState.Values.Any(x => x.Errors.Any()))
+                {
+                    <div class="alert alert-danger">
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(x => x.Errors))
+                        {
+                            <p>⚠️ @error.ErrorMessage</p>
+                        }
+                    </div>
+                }
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="form-input" 
+                        placeholder="name@example.com"
+                        value="@Model?.Email"
+                        required
+                        autocomplete="email"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        class="form-input" 
+                        placeholder="••••••••"
+                        required
+                        autocomplete="current-password"/>
+                </div>
+
+                <div class="remember-forgot">
+                    <label style="display: flex; align-items: center;">
+                        <input type="checkbox" name="rememberMe" style="margin-right: 8px; cursor: pointer;">
+                        Remember me
+                    </label>
+                    <a href="#" style="cursor: not-allowed; opacity: 0.6;">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="loginBtn">
+                    Sign In
+                </button>
+
+                <p class="auth-footer">
+                    Don't have an account? <a href="/auth/register">Sign up here</a>
+                </p>
+            </form>
+
+            <div class="footer-text">
+                © 2026 SmartCare Health. All rights reserved.<br>
+                Providing quality healthcare solutions with excellence and care
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            
+            if (!email || !password) {
+                e.preventDefault();
+                alert('Please fill all fields');
+                return;
+            }
+
+            // Email validation
+            var emailRegex = new RegExp('^[^\\s' + String.fromCharCode(64) + ']+' + String.fromCharCode(64) + '[^\\s' + String.fromCharCode(64) + ']+\\.[^\\s' + String.fromCharCode(64) + ']+$');
+            if (!emailRegex.test(email)) {
+                e.preventDefault();
+                alert('Please enter a valid email address');
+                return;
+            }
+        });
+    </script>
+</body>
+</html>

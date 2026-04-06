@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LearnScript — My Courses</title>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #fdf6f0; font-family: 'DM Sans', sans-serif; min-height: 100vh; }
+  nav {
+    background: linear-gradient(135deg, #a8d5a2, #f9c6d0);
+    padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand { font-family: 'Pinyon Script', cursive; font-size: 2rem; color: #3a5a3a; }
+  .nav-right { display: flex; gap: 1rem; align-items: center; }
+  .nav-user { font-size: 0.85rem; color: #4a7a4a; }
+  .back-btn {
+    padding: 0.4rem 1rem; border-radius: 20px;
+    border: 1.5px solid #3a5a3a; background: transparent;
+    color: #3a5a3a; font-family: 'DM Sans', sans-serif;
+    cursor: pointer; font-size: 0.85rem;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+  .page-title { font-family: 'Pinyon Script', cursive; font-size: 3rem; color: #c06080; margin-bottom: 0.5rem; }
+  .subtitle { color: #888; margin-bottom: 2rem; font-size: 0.9rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+  .card {
+    background: white; border-radius: 16px;
+    border: 1.5px solid #f0e0e8; padding: 1.5rem;
+    transition: transform 0.2s;
+  }
+  .card:hover { transform: translateY(-3px); }
+  .card-cat {
+    display: inline-block; padding: 0.25rem 0.75rem;
+    background: #e8f5e8; color: #3a7a3a;
+    border-radius: 20px; font-size: 0.75rem; margin-bottom: 0.75rem;
+  }
+  .card h3 { font-size: 1.1rem; color: #333; margin-bottom: 0.5rem; font-weight: 500; }
+  .card p { font-size: 0.85rem; color: #888; margin-bottom: 1rem; line-height: 1.6; }
+  .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; }
+  .instructor { font-size: 0.8rem; color: #c06080; }
+  .enrolled-badge {
+    display: inline-block; padding: 0.25rem 0.75rem;
+    background: #fde8ee; color: #c06080;
+    border-radius: 20px; font-size: 0.75rem;
+  }
+  .unenroll-btn {
+    padding: 0.4rem 1rem; background: white;
+    border: 1.5px solid #e05555; color: #e05555;
+    border-radius: 20px; cursor: pointer;
+    font-family: 'DM Sans', sans-serif; font-size: 0.8rem;
+    transition: all 0.2s; margin-top: 0.75rem; width: 100%;
+  }
+  .unenroll-btn:hover { background: #e05555; color: white; }
+  .loading { text-align: center; padding: 3rem; color: #aaa; font-family: 'Pinyon Script', cursive; font-size: 2rem; }
+  .empty {
+    grid-column: 1/-1; text-align: center; padding: 4rem;
+    font-family: 'Pinyon Script', cursive; font-size: 2rem; color: #ddb0c0;
+  }
+  .empty p { font-family: 'DM Sans', sans-serif; font-size: 0.9rem; color: #aaa; margin-top: 0.5rem; }
+  .empty a { color: #c06080; text-decoration: none; }
+  .msg { padding: 0.5rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.85rem; display: none; }
+  .msg.success { background: #e8f5e8; color: #3a7a3a; display: block; }
+  .msg.err { background: #fde8ee; color: #c06080; display: block; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-brand">LearnScript</div>
+  <div class="nav-right">
+    <span class="nav-user" id="nav-user"></span>
+    <button class="back-btn" onclick="window.location.href='courses.html'">← All Courses</button>
+  </div>
+</nav>
+<div class="container">
+  <div class="page-title">My Courses</div>
+  <div class="subtitle">Your personal learning journey</div>
+  <div class="msg" id="msg"></div>
+  <div class="grid" id="course-grid"><div class="loading">Loading...</div></div>
+</div>
+<script>
+  const API = 'http://localhost:5170';
+  const token = localStorage.getItem('token');
+  const username = localStorage.getItem('username');
+  const role = localStorage.getItem('role');
+  let currentUserId = null;
+
+  if (!token) { alert('Please login first'); window.location.href = 'login.html'; }
+
+  document.getElementById('nav-user').textContent = `Hi, ${username} (${role})`;
+
+  async function loadMyEnrollments() {
+    const grid = document.getElementById('course-grid');
+    try {
+      const payload = JSON.parse(atob(token.split('.')[1]));
+      currentUserId = parseInt(payload["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"]);
+
+      const res = await fetch(`${API}/api/v1/enrollments/${currentUserId}`, {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      const courses = await res.json();
+
+      if (!courses.length) {
+        grid.innerHTML = `
+          <div class="empty">
+            No enrollments yet
+            <p>Browse <a href="courses.html">all courses</a> and enroll in something!</p>
+          </div>`;
+        return;
+      }
+
+      grid.innerHTML = courses.map(c => `
+        <div class="card" id="card-${c.id}">
+          <span class="card-cat">${c.category}</span>
+          <h3>${c.title}</h3>
+          <p>${c.description}</p>
+          <div class="card-footer">
+            <span class="instructor">by ${c.instructorName || 'Unknown'}</span>
+            <span class="enrolled-badge">✓ Enrolled</span>
+          </div>
+          <button class="unenroll-btn" onclick="unenroll(${c.id})">✕ Unenroll</button>
+        </div>`).join('');
+    } catch(e) {
+      grid.innerHTML = '<div class="loading">Could not load enrollments</div>';
+    }
+  }
+
+  async function unenroll(courseId) {
+    if (!confirm('Are you sure you want to unenroll from this course?')) return;
+    try {
+      const res = await fetch(`${API}/api/v1/enroll`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({ userId: currentUserId, courseId })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        showMsg('Unenrolled successfully!', 'success');
+        document.getElementById(`card-${courseId}`).remove();
+        const grid = document.getElementById('course-grid');
+        if (!grid.children.length) {
+          grid.innerHTML = `
+            <div class="empty">
+              No enrollments yet
+              <p>Browse <a href="courses.html">all courses</a> and enroll in something!</p>
+            </div>`;
+        }
+      } else {
+        showMsg(data.error || 'Unenroll failed', 'err');
+      }
+    } catch {
+      showMsg('Server error', 'err');
+    }
+  }
+
+  function showMsg(text, type) {
+    const m = document.getElementById('msg');
+    m.textContent = text; m.className = `msg ${type}`;
+    setTimeout(() => m.style.display = 'none', 3000);
+  }
+
+  loadMyEnrollments();
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\studentportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\studentportal\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\studentportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\studentportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\studentportal\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\studentportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\studentportal\\middleware\\adminauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F303A34A-5FC6-5E2E-B028-906FF77ACDD7}|StudentPortal.csproj|solutionrelative:middleware\\adminauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T07:18:50.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T07:12:42.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:09:53.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:09:22.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:08:10.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:06:22.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminAuthMiddleware.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Middleware\\AdminAuthMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\AdminAuthMiddleware.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\StudentPortal\\Middleware\\AdminAuthMiddleware.cs",
+              "RelativeToolTip": "Middleware\\AdminAuthMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:05:42.501Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

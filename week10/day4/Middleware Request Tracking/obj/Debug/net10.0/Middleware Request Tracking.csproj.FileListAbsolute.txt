@@ -1,0 +1,99 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\appsettings.Development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\appsettings.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\Middleware Request Tracking.staticwebassets.runtime.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\Middleware Request Tracking.staticwebassets.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\Middleware Request Tracking.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\Middleware Request Tracking.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\Middleware Request Tracking.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\Middleware Request Tracking.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\bin\Debug\net10.0\Middleware Request Tracking.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\rpswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.MvcApplicationPartsAssemblyInfo.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.RazorAssemblyInfo.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.RazorAssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.sourcelink.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\rjimswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\scopedcss\bundle\Middleware Request Tracking.styles.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\scopedcss\projectbundle\Middleware Request Tracking.bundle.scp.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\d64kpmlo9x-{0}-b9sayid5wm-b9sayid5wm.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\5j3mimqued-{0}-61n19gt1b8-61n19gt1b8.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\2h57nlfz8e-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\loks90gcrw-{0}-bqjiyaj88i-bqjiyaj88i.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\hvmtbe7rvq-{0}-c2jlpeoesf-c2jlpeoesf.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\uznqpa81y7-{0}-erw9l3u2r3-erw9l3u2r3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\55tkfltqi8-{0}-aexeepp0ev-aexeepp0ev.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\sjjnfk9hro-{0}-d7shbmvgxk-d7shbmvgxk.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\i34msj3o82-{0}-ausgxo2sd3-ausgxo2sd3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\817hsds68t-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\1nlztrm5ag-{0}-cosvhxvwiu-cosvhxvwiu.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\jbdw3wtc0a-{0}-ub07r2b239-ub07r2b239.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\4cansljfk3-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\gjbt10yf4i-{0}-b7pk76d08c-b7pk76d08c.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\br1jx7sqep-{0}-fsbi9cje9m-fsbi9cje9m.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\emvfso821q-{0}-rzd6atqjts-rzd6atqjts.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\ep3y8sbtm9-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\f2zryvpe66-{0}-dxx9fxp4il-dxx9fxp4il.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\mjooqqnve7-{0}-jd9uben2k1-jd9uben2k1.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\fzikceg5ue-{0}-khv3u5hwcm-khv3u5hwcm.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\2b1wb3zu84-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\u8d4i74553-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\4yap1wg6pm-{0}-c2oey78nd0-c2oey78nd0.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\ra155qifck-{0}-tdbxkamptv-tdbxkamptv.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\ficjq8jxfu-{0}-j5mq2jizvt-j5mq2jizvt.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\susqwmyfzk-{0}-06098lyss8-06098lyss8.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\txtv3x2tjp-{0}-nvvlpmu67g-nvvlpmu67g.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\7dkqeiii5k-{0}-s35ty4nyc5-s35ty4nyc5.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\xh9carxf3s-{0}-pj5nd1wqec-pj5nd1wqec.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\j2oebtd06p-{0}-46ein0sx1k-46ein0sx1k.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\d5qnid9v2p-{0}-v0zj4ognzu-v0zj4ognzu.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\0jvqsib63c-{0}-37tfw0ft22-37tfw0ft22.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\bqxp4zd3e5-{0}-hrwsygsryq-hrwsygsryq.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\v5p0tlysz3-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\ks488e7so8-{0}-ft3s53vfgj-ft3s53vfgj.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\vlhpdl6mks-{0}-6cfz1n2cew-6cfz1n2cew.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\g134vvkpd8-{0}-6pdc2jztkx-6pdc2jztkx.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\cgjg0n1fuc-{0}-493y06b0oq-493y06b0oq.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\pis6vjn7e8-{0}-iovd86k7lj-iovd86k7lj.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\tvzaf4j7t0-{0}-vr1egmr9el-vr1egmr9el.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\cz0pdc6b62-{0}-kbrnm935zg-kbrnm935zg.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\l3c1xzmv76-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\uha50w8n1f-{0}-y7v9cxd14o-y7v9cxd14o.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\une75mycxi-{0}-notf2xhcfb-notf2xhcfb.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\dvrjh63lak-{0}-h1s4sie4z3-h1s4sie4z3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\a8a6uf71go-{0}-63fj8s7r0e-63fj8s7r0e.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\g6viihdpw4-{0}-0j3bgjxly4-0j3bgjxly4.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\7y5bdaslem-{0}-47otxtyo56-47otxtyo56.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\omertgkkcz-{0}-4v8eqarkd7-4v8eqarkd7.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\phsatlctd6-{0}-356vix0kms-356vix0kms.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\o4fp2pc2i3-{0}-83jwlth58m-83jwlth58m.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\ku0y3heky3-{0}-mrlpezrjn3-mrlpezrjn3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\v1v12bmsk6-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\0z9ydkoyow-{0}-ag7o75518u-ag7o75518u.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\6dovbtmu25-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\14fmi614ox-{0}-0i3buxo5is-0i3buxo5is.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\ck9npby431-{0}-o1o13a6vjx-o1o13a6vjx.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\qezcsxyzyl-{0}-ttgo8qnofa-ttgo8qnofa.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\s6nyi3h1ir-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\7nax0maz8c-{0}-muycvpuwrr-muycvpuwrr.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\cuz4c4seyw-{0}-87fc7y1x7t-87fc7y1x7t.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\lauloezf3q-{0}-mlv21k5csn-mlv21k5csn.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\xvblav7in9-{0}-cubecndpis-cubecndpis.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\compressed\7bjs0mv66z-{0}-cubecndpis-cubecndpis.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\staticwebassets.build.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\staticwebassets.build.json.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\staticwebassets.development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\swae.build.ex.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\refint\Middleware Request Tracking.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\Middleware Request Tracking.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week10\day4\Middleware Request Tracking\obj\Debug\net10.0\ref\Middleware Request Tracking.dll

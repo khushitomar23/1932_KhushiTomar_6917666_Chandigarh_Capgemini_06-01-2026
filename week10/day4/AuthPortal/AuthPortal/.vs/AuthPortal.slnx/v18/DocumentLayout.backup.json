@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\services\\operationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:services\\operationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\services\\ioperationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:services\\ioperationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\models\\studentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:models\\studentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\models\\operationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:models\\operationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\authportal\\authportal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0026E569-714F-8103-C5D5-AB82A4B16C86}|AuthPortal.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:02:14.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwG0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:01:46.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Login.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:01:12.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:00:29.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwDEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:59:52.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAQwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:59:27.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:58:53.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthenticationMiddleware.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\AuthenticationMiddleware.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeToolTip": "Middleware\\AuthenticationMiddleware.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:58:21.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:57:48.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\IStudentService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:57:04.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OperationLogService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\OperationLogService.cs",
+              "RelativeDocumentMoniker": "Services\\OperationLogService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\OperationLogService.cs",
+              "RelativeToolTip": "Services\\OperationLogService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:56:30.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOperationLogService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\IOperationLogService.cs",
+              "RelativeDocumentMoniker": "Services\\IOperationLogService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\IOperationLogService.cs",
+              "RelativeToolTip": "Services\\IOperationLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:56:02.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:55:26.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:55:02.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "Models\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:54:00.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentIndexViewModel.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\StudentIndexViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\StudentIndexViewModel.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\StudentIndexViewModel.cs",
+              "RelativeToolTip": "Models\\StudentIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:53:33.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OperationLog.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\OperationLog.cs",
+              "RelativeDocumentMoniker": "Models\\OperationLog.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\OperationLog.cs",
+              "RelativeToolTip": "Models\\OperationLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:52:27.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Student.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\AuthPortal\\AuthPortal\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:51:53.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

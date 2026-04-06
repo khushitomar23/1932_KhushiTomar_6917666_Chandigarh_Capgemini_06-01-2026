@@ -1,0 +1,21 @@
+﻿<h2>Hotel Dashboard</h2>
+
+<div class="alert alert-info">Rooms: @ViewBag.TotalRooms</div>
+<div class="alert alert-success">Bookings: @ViewBag.TotalBookings</div>
+
+<a href="/Rooms" class="btn btn-primary">Rooms</a>
+<a href="/Customers" class="btn btn-success">Customers</a>
+<a href="/Bookings" class="btn btn-warning">Bookings</a>
+
+<canvas id="chart"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById('chart'), {
+        type: 'bar',
+        data: {
+            labels: ['Rooms','Bookings'],
+            datasets: [{ data: [@ViewBag.TotalRooms, @ViewBag.TotalBookings] }]
+        }
+    });
+</script>

@@ -1,0 +1,18 @@
+﻿@model Customer___products.Models.Order
+
+<h2>Place Order</h2>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Customer</label>
+        <select asp-for="CustomerId" asp-items="ViewBag.Customers"></select>
+    </div>
+
+    <div>
+        <label>Product</label>
+        <select asp-for="ProductId" asp-items="ViewBag.Products"></select>
+    </div>
+
+    <button type="submit">Place Order</button>
+</form>

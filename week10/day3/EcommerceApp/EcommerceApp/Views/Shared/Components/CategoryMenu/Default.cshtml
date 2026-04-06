@@ -1,0 +1,13 @@
+@model IEnumerable<EcommerceApp.Models.Category>
+
+@if (Model != null && Model.Any())
+{
+  foreach (var cat in Model)
+  {
+    <li class="nav-item">
+      <a class="nav-link text-dark" asp-controller="Categories" asp-action="Index">
+        @cat.Name
+      </a>
+    </li>
+  }
+}

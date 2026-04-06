@@ -1,0 +1,31 @@
+﻿@model List<string>
+
+<h2>Students</h2>
+
+<ul>
+    @foreach (var student in Model)
+    {
+        <li>@student</li>
+    }
+</ul>
+
+<h3>Request Logs</h3>
+
+<table border="1">
+    <tr>
+        <th>URL</th>
+        <th>Execution Time (ms)</th>
+    </tr>
+
+    @if (ViewBag.Logs != null)
+    {
+        foreach (var log in ViewBag.Logs)
+        {
+            <tr>
+                <td>@log.Url</td>
+                <td>@log.ExecutionTime</td>
+            </tr>
+        }
+    }
+
+</table>

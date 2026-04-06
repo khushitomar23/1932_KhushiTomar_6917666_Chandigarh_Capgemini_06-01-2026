@@ -1,0 +1,135 @@
+@{
+    ViewData["Title"] = "Welcome to Healthcare";
+    Layout = "_Layout";
+}
+
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Welcome to HealthCare Pro 🏥</h1>
+        <p class="hero-subtitle">Your trusted partner for quality healthcare services</p>
+        @if (Context.Session.GetInt32("UserId") == null)
+        {
+            <div class="hero-buttons">
+                <a href="/auth/login" class="btn btn-primary btn-large" data-action="login">Login</a>
+                <a href="/auth/register" class="btn btn-secondary btn-large" data-action="register">Register</a>
+            </div>
+        }
+        else
+        {
+            <div class="hero-buttons">
+                <a href="/doctors" class="btn btn-primary btn-large" data-action="browse">Browse Doctors</a>
+                <a href="/appointments/myappointments" class="btn btn-secondary btn-large" data-action="myapp">My Appointments</a>
+            </div>
+        }
+    </div>
+    <div class="hero-visual">
+        <div class="floating-icon">🩺</div>
+    </div>
+</section>
+
+<section class="features fade-in-element">
+    <h2 class="features-title">Why Choose Us? ⭐</h2>
+    <div class="features-grid">
+        <div class="feature" data-feature="doctors">
+            <div class="feature-icon">👨‍⚕️</div>
+            <h3>Expert Doctors</h3>
+            <p>Access our network of experienced and qualified doctors</p>
+        </div>
+        <div class="feature" data-feature="booking">
+            <div class="feature-icon">📅</div>
+            <h3>Easy Booking</h3>
+            <p>Book appointments in just a few clicks</p>
+        </div>
+        <div class="feature" data-feature="secure">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure & Reliable</h3>
+            <p>Your health information is safe with us</p>
+        </div>
+    </div>
+</section>
+
+<section class="stats-preview fade-in-element">
+    <div class="stat-item">
+        <h4 class="stat-number">500+</h4>
+        <p>Happy Patients</p>
+    </div>
+    <div class="stat-item">
+        <h4 class="stat-number">50+</h4>
+        <p>Expert Doctors</p>
+    </div>
+    <div class="stat-item">
+        <h4 class="stat-number">10+</h4>
+        <p>Departments</p>
+    </div>
+</section>
+
+<script>
+    // Hero buttons interaction tracking
+    document.querySelectorAll('.hero-buttons a').forEach(btn => {
+        btn.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+            this.style.boxShadow = '0 10px 25px rgba(255, 20, 147, 0.3)';
+        });
+
+        btn.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+            this.style.boxShadow = '0 5px 15px rgba(255, 20, 147, 0.2)';
+        });
+
+        btn.addEventListener('click', function() {
+            const action = this.getAttribute('data-action');
+            console.log('Navigation: ' + action);
+        });
+    });
+
+    // Floating animation for hero icon
+    const floatingIcon = document.querySelector('.floating-icon');
+    if (floatingIcon) {
+        floatingIcon.style.animation = 'float 3s ease-in-out infinite';
+    }
+
+    // Feature cards hover effects
+    document.querySelectorAll('.feature').forEach((card, index) => {
+        card.style.animation = `slideInUp 0.6s ease-out ${index * 0.15}s both`;
+        
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-15px) scale(1.05)';
+            this.style.boxShadow = '0 15px 35px rgba(255, 20, 147, 0.25)';
+        });
+
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+            this.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.08)';
+        });
+    });
+
+    // Intersection observer for fade-in animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-in-element').forEach(el => {
+        observer.observe(el);
+    });
+
+    // Page load animation
+    window.addEventListener('load', function() {
+        const heroContent = document.querySelector('.hero-content');
+        if (heroContent) {
+            heroContent.style.animation = 'slideInDown 0.8s ease-out';
+        }
+    });
+
+    // Log page view
+    console.log('%c🏥 HealthCare Home Page Loaded', 'color: #ff1493; font-size: 14px; font-weight: bold;');
+</script>

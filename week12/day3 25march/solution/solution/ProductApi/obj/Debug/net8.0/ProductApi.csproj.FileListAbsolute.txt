@@ -1,0 +1,70 @@
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfoInputs.cache
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfo.cs
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.csproj.CoreCompileInputs.cache
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.sourcelink.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\appsettings.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\ProductApi.staticwebassets.endpoints.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\ProductApi.exe
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\ProductApi.deps.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\ProductApi.runtimeconfig.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\ProductApi.dll
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\ProductApi.pdb
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.csproj.AssemblyReference.cache
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\scopedcss\bundle\ProductApi.styles.css
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\staticwebassets.build.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\staticwebassets.development.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\swae.build.ex.cache
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.csproj.Up2Date
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.dll
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\refint\ProductApi.dll
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.pdb
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
+E:\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Capgemini_CU_Sec3_.NetWithAzure_Shivansh\Week-12_23rd_March_to_28th_March_2026\Day_1_25th_March_2026\solution\ProductApi\obj\Debug\net8.0\ref\ProductApi.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\appsettings.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\ProductApi.staticwebassets.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\ProductApi.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\ProductApi.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\ProductApi.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\ProductApi.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\ProductApi.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.csproj.AssemblyReference.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.sourcelink.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\scopedcss\bundle\ProductApi.styles.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\staticwebassets.build.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\staticwebassets.development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\swae.build.ex.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.csproj.Up2Date
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\refint\ProductApi.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day3 25march\solution\solution\ProductApi\obj\Debug\net8.0\ref\ProductApi.dll

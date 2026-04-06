@@ -1,0 +1,9 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_EcommerceAPI.Tests
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_EcommerceAPI.Tests
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\obj\Debug\net9.0\EcommerceAPI.Tests.csproj.AssemblyReference.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\obj\Debug\net9.0\MvcTestingAppManifest.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\obj\Debug\net9.0\EcommerceAPI.Tests.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\obj\Debug\net9.0\EcommerceAPI.Tests.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\obj\Debug\net9.0\EcommerceAPI.Tests.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\obj\Debug\net9.0\EcommerceAPI.Tests.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day2\EcommerceAPI\EcommerceAPI.Tests\obj\Debug\net9.0\EcommerceAPI.Tests.sourcelink.json

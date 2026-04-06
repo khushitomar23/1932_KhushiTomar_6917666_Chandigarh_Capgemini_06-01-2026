@@ -1,0 +1,452 @@
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<style>
+    .cart-container {
+        background: linear-gradient(135deg, #FFF5FB 0%, #F5F0FF 100%);
+        padding: 2rem;
+        border-radius: 20px;
+        margin: 2rem 0;
+    }
+
+    .cart-title {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5rem;
+        color: #6B5B7F;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .cart-table {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(107, 91, 127, 0.1);
+    }
+
+    .cart-table table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0;
+    }
+
+    .cart-table thead {
+        background: linear-gradient(135deg, #FFB6D9 0%, #C5A3FF 100%);
+        color: white;
+    }
+
+    .cart-table th {
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+        border: none;
+    }
+
+    .cart-table td {
+        padding: 1.5rem 1rem;
+        border-bottom: 1px solid #F0E6FF;
+        vertical-align: middle;
+    }
+
+    .cart-table tbody tr:hover {
+        background: #FFF9FB;
+    }
+
+    .cart-empty {
+        text-align: center;
+        padding: 3rem 2rem;
+        color: #6B5B7F;
+    }
+
+    .cart-empty-message {
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .cart-summary {
+        background: white;
+        border-radius: 15px;
+        padding: 2rem;
+        margin-top: 2rem;
+        box-shadow: 0 5px 15px rgba(107, 91, 127, 0.1);
+        max-width: 400px;
+        margin-left: auto;
+    }
+
+    .summary-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem 0;
+        border-bottom: 1px solid #F0E6FF;
+        color: #6B5B7F;
+    }
+
+    .summary-row.total {
+        border-bottom: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #2D7A6F;
+        padding-top: 1.5rem;
+    }
+
+    .btn-checkout {
+        width: 100%;
+        padding: 1rem;
+        background: linear-gradient(135deg, #FFD4A3 0%, #A8FFD8 100%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        cursor: pointer;
+        margin-top: 1.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .btn-checkout:hover {
+        transform: scale(1.05);
+    }
+
+    .btn-continue {
+        width: 100%;
+        padding: 0.8rem;
+        background: #C5A3FF;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .remove-btn {
+        background: #FF6B9D;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 0.9rem;
+    }
+
+    .remove-btn:hover {
+        background: #FF4A7F;
+    }
+
+    .quantity-input {
+        width: 60px;
+        padding: 0.5rem;
+        border: 2px solid #FFB6D9;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .order-confirmation {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .order-confirmation.show {
+        display: flex;
+    }
+
+    .confirmation-box {
+        background: white;
+        border-radius: 20px;
+        padding: 3rem;
+        max-width: 500px;
+        box-shadow: 0 10px 40px rgba(107, 91, 127, 0.3);
+        animation: slideIn 0.5s ease;
+    }
+
+    @@keyframes slideIn {
+        from {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .confirmation-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .confirmation-title {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        color: #2D7A6F;
+        margin-bottom: 0.5rem;
+    }
+
+    .confirmation-subtitle {
+        color: #8B7BA8;
+        font-size: 1rem;
+    }
+
+    .order-details {
+        background: #FFF9FB;
+        padding: 1.5rem;
+        border-radius: 15px;
+        margin-bottom: 2rem;
+        border-left: 5px solid #FFB6D9;
+    }
+
+    .order-detail-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem 0;
+        color: #6B5B7F;
+    }
+
+    .order-detail-row strong {
+        color: #2D7A6F;
+    }
+
+    .order-number {
+        font-family: monospace;
+        background: white;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-weight: bold;
+        color: #FF6B9D;
+    }
+
+    .btn-ok {
+        width: 100%;
+        padding: 1rem;
+        background: linear-gradient(135deg, #FFD4A3 0%, #A8FFD8 100%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .btn-ok:hover {
+        transform: scale(1.05);
+    }
+
+</style>
+
+<div class="cart-container">
+    <h1 class="cart-title">🛒 My Shopping Cart</h1>
+
+    <div id="cartContent">
+        <div class="cart-empty">
+            <div class="cart-empty-message">Your cart is empty!</div>
+            <p style="margin-bottom: 1.5rem; color: #8B7BA8;">
+                Start shopping to add items to your cart.
+            </p>
+            <a href="@Url.Action("Index")" class="btn-continue">← Continue Shopping</a>
+        </div>
+    </div>
+</div>
+
+<!-- Order Confirmation Modal -->
+<div id="orderConfirmation" class="order-confirmation">
+    <div class="confirmation-box">
+        <div class="confirmation-header">
+            <div class="confirmation-title">✨ Order Confirmed!</div>
+            <div class="confirmation-subtitle">Thank you for your purchase</div>
+        </div>
+        <div class="order-details">
+            <div class="order-detail-row">
+                <strong>Order Number:</strong>
+                <span class="order-number" id="orderNumber">#ORD000000</span>
+            </div>
+            <div class="order-detail-row">
+                <strong>Items Count:</strong>
+                <span id="confirmItemCount">0</span>
+            </div>
+            <div class="order-detail-row">
+                <strong>Total Amount:</strong>
+                <span id="confirmTotal">₹0.00</span>
+            </div>
+            <div class="order-detail-row">
+                <strong>Order Status:</strong>
+                <span style="color: #2D7A6F; font-weight: bold;">Processing 🔄</span>
+            </div>
+        </div>
+        <button class="btn-ok" onclick="closeConfirmation()">Continue Shopping</button>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    displayCart();
+});
+
+function displayCart() {
+    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+    let cartContent = document.getElementById('cartContent');
+
+    if (cart.length === 0) {
+        cartContent.innerHTML = `
+            <div class="cart-empty">
+                <div class="cart-empty-message">Your cart is empty!</div>
+                <p style="margin-bottom: 1.5rem; color: #8B7BA8;">
+                    Start shopping to add items to your cart.
+                </p>
+                <a href="@Url.Action("Index")" class="btn-continue">← Continue Shopping</a>
+            </div>
+        `;
+        return;
+    }
+
+    let totalPrice = 0;
+    let totalQuantity = 0;
+
+    let tableHTML = `
+        <div class="cart-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+
+    cart.forEach((item, index) => {
+        let subtotal = item.price * item.quantity;
+        totalPrice += subtotal;
+        totalQuantity += item.quantity;
+
+        tableHTML += `
+            <tr>
+                <td><strong>${item.name}</strong></td>
+                <td>Rs. ${item.price.toFixed(2)}</td>
+                <td>
+                    <input type="number" min="1" value="${item.quantity}" class="quantity-input" 
+                           onchange="updateQuantity(${index}, this.value)">
+                </td>
+                <td>Rs. ${subtotal.toFixed(2)}</td>
+                <td>
+                    <button class="remove-btn" onclick="removeFromCart(${index})">Remove</button>
+                </td>
+            </tr>
+        `;
+    });
+
+    tableHTML += `
+                </tbody>
+            </table>
+        </div>
+    `;
+
+    tableHTML += `
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Subtotal:</span>
+                <span>Rs. ${totalPrice.toFixed(2)}</span>
+            </div>
+            <div class="summary-row">
+                <span>Items:</span>
+                <span>${totalQuantity}</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total:</span>
+                <span>Rs. ${totalPrice.toFixed(2)}</span>
+            </div>
+            <button class="btn-checkout" onclick="checkout()">💳 Proceed to Checkout</button>
+            <a href="@Url.Action("Index")" class="btn-continue">← Continue Shopping</a>
+        </div>
+    `;
+
+    cartContent.innerHTML = tableHTML;
+}
+
+function updateQuantity(index, newQuantity) {
+    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+    if (newQuantity > 0) {
+        cart[index].quantity = parseInt(newQuantity);
+        sessionStorage.setItem('cart', JSON.stringify(cart));
+        displayCart();
+        updateCartCount();
+    }
+}
+
+function removeFromCart(index) {
+    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+    let removedItem = cart[index].name;
+    cart.splice(index, 1);
+    sessionStorage.setItem('cart', JSON.stringify(cart));
+    alert(`✨ ${removedItem} removed from cart!`);
+    displayCart();
+    updateCartCount();
+}
+
+function updateCartCount() {
+    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+    let totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    const cartLink = document.querySelector('a[href*="/Home/Cart"]');
+    if (cartLink) {
+        cartLink.textContent = `🛒 Cart (${totalItems})`;
+    }
+}
+
+function checkout() {
+    let cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+    
+    if (cart.length === 0) {
+        alert('🛒 Your cart is empty!');
+        return;
+    }
+
+    // Calculate total
+    let total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    
+    // Generate order number
+    const orderNumber = '#ORD' + String(Math.floor(Math.random() * 1000000)).padStart(6, '0');
+    
+    // Show order confirmation
+    document.getElementById('orderNumber').textContent = orderNumber;
+    document.getElementById('confirmItemCount').textContent = cart.length;
+    document.getElementById('confirmTotal').textContent = '₹' + total.toFixed(2);
+    
+    // Show modal
+    document.getElementById('orderConfirmation').classList.add('show');
+}
+
+function closeConfirmation() {
+    // Clear cart from storage
+    sessionStorage.removeItem('cart');
+    
+    // Close modal
+    document.getElementById('orderConfirmation').classList.remove('show');
+    
+    // Update cart display
+    displayCart();
+    updateCartCount();
+    
+    // Redirect to home
+    setTimeout(() => {
+        window.location.href = '/';
+    }, 1000);
+}
+
+// Initialize cart count on page load
+window.addEventListener('load', updateCartCount);
+</script>

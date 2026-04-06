@@ -1,0 +1,12 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\bin\Debug\net10.0\ECommerceSite.Models.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ECommerceSite.Models.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ECommerceSite.Models.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\bin\Debug\net10.0\ECommerceSite.Models.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ECommerceSite.Models.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ECommerceSite.Models.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ECommerceSite.Models.sourcelink.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ECommerceSite.Models.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\refint\ECommerceSite.Models.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ECommerceSite.Models.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\bin\Debug\net10.0\ECommerceSite.Models.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\ECommerceSite\ECommerceSite.Models\obj\Debug\net10.0\ref\ECommerceSite.Models.dll

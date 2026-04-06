@@ -1,0 +1,121 @@
+@model List<DoctorViewModel>
+@{
+    ViewData["Title"] = "Our Doctors";
+    Layout = "_Layout";
+}
+
+<div class="doctors-container">
+    <h1 class="page-title">Our Expert Doctors 👨‍⚕️</h1>
+    <p class="page-subtitle">Choose from our experienced medical professionals</p>
+
+    @if (Model == null || Model.Count == 0)
+    {
+        <div class="no-data">
+            <p>No doctors available at the moment.</p>
+        </div>
+    }
+    else
+    {
+        <div class="search-box" style="margin-bottom: 2rem; text-align: center;">
+            <input 
+                type="text" 
+                id="searchDoctors" 
+                class="form-input" 
+                placeholder="Search by name or specialization..." 
+                style="max-width: 400px; margin: 0 auto;">
+            <p style="color: #999; margin-top: 0.5rem;">Found <span id="doctorCount">@Model.Count</span> doctors</p>
+        </div>
+
+        <div class="doctors-grid" id="doctorsGrid">
+            @foreach (var doctor in Model)
+            {
+                <div class="doctor-card" data-doctor-name="@doctor.FullName?.ToLower()" data-specialization="@doctor.Specialization?.ToLower()">
+                    <div class="doctor-card-header">
+                        <h3 class="doctor-name">Dr. @doctor.FullName</h3>
+                        <p class="doctor-department">@doctor.DepartmentName</p>
+                    </div>
+                    
+                    <div class="doctor-info">
+                        <p><strong>Specialization:</strong> @doctor.Specialization</p>
+                        <p><strong>Experience:</strong> @doctor.ExperienceYears years</p>
+                        <p><strong>Available:</strong> @doctor.Availability</p>
+                    </div>
+
+                    <div class="doctor-actions">
+                        <a href="/appointments/book?doctorId=@doctor.DoctorId" class="btn btn-primary btn-small" data-doctor-id="@doctor.DoctorId">
+                            Book Appointment
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<script>
+    // Doctor search functionality
+    const searchInput = document.getElementById('searchDoctors');
+    const doctorCards = document.querySelectorAll('.doctor-card');
+    const doctorCount = document.getElementById('doctorCount');
+
+    if (searchInput) {
+        searchInput.addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            let visibleCount = 0;
+
+            doctorCards.forEach(card => {
+                const doctorName = card.getAttribute('data-doctor-name');
+                const specialization = card.getAttribute('data-specialization');
+
+                if (doctorName.includes(searchTerm) || specialization.includes(searchTerm)) {
+                    card.style.display = 'block';
+                    card.style.animation = 'fadeIn 0.3s ease-out';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Update count
+            if (doctorCount) {
+                doctorCount.textContent = visibleCount;
+            }
+
+            // Show message if no results
+            if (visibleCount === 0) {
+                const grid = document.getElementById('doctorsGrid');
+                if (!document.getElementById('noResultsMsg')) {
+                    const noResults = document.createElement('div');
+                    noResults.id = 'noResultsMsg';
+                    noResults.className = 'no-data';
+                    noResults.style.marginTop = '2rem';
+                    noResults.innerHTML = '<p>No doctors found matching your search.</p>';
+                    grid.insertAdjacentElement('afterend', noResults);
+                }
+            } else {
+                const noResults = document.getElementById('noResultsMsg');
+                if (noResults) noResults.remove();
+            }
+        });
+    }
+
+    // Book appointment tracking
+    document.querySelectorAll('.doctor-card').forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px) scale(1.02)';
+        });
+
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+
+    // Track doctor selections
+    document.querySelectorAll('a.btn-primary[data-doctor-id]').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const doctorId = this.getAttribute('data-doctor-id');
+            console.log('Booking appointment with doctor ID: ' + doctorId);
+            // Can be used for analytics later
+        });
+    });
+</script>

@@ -1,0 +1,25 @@
+﻿@model UniversityManagement.Models.Student
+
+<h2>Edit Student</h2>
+
+<form asp-action="Edit">
+
+    <input type="hidden" asp-for="StudentId" />
+
+    <label>Full Name</label>
+    <input asp-for="FullName" />
+    <br />
+
+    <label>Email</label>
+    <input asp-for="Email" />
+    <br />
+
+    <label>Enrollment Date</label>
+    <input asp-for="EnrollmentDate" type="date" />
+    <br />
+
+    <button type="submit">Update</button>
+
+</form>
+
+<a asp-action="Index">Back</a>

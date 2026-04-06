@@ -1,0 +1,35 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SecureEmployee</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/vibrant.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- keep your nav here or paste existing markup -->
+        </nav>
+    </header>
+
+    <main class="vibrant-window" role="main">
+        <h1 class="page-title">@ViewData["Title"]</h1>
+        <div class="vibrant-accent" aria-hidden="true"></div>
+
+        @RenderBody()
+    </main>
+
+    <footer>
+        <div style="text-align:center; padding:18px; color:rgba(255,255,255,0.7);">
+            &copy; @DateTime.UtcNow.Year - SecureEmployee
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

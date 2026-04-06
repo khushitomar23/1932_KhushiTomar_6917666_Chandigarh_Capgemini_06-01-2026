@@ -1,0 +1,22 @@
+@model List<HotelBookingSystem.Models.Customer>
+
+<h2>Customers</h2>
+
+<a href="/Customers/Create" class="btn btn-primary mb-3">Add Customer</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.Name</td>
+            <td>@c.Email</td>
+            <td>@c.Phone</td>
+        </tr>
+    }
+</table>

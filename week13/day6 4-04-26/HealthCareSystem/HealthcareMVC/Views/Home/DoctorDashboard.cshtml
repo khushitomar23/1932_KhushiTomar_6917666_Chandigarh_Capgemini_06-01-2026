@@ -1,0 +1,198 @@
+@{
+    ViewData["Title"] = "Doctor Dashboard";
+    var userName = Context.Session.GetString("UserName");
+}
+
+<style>
+    .dashboard-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .dashboard-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .dashboard-header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    .dashboard-header p {
+        margin: 10px 0 0 0;
+        opacity: 0.95;
+    }
+
+    .appointments-section {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .appointments-section h2 {
+        color: #667eea;
+        margin-top: 0;
+        border-bottom: 2px solid #667eea;
+        padding-bottom: 10px;
+    }
+
+    .appointment-card {
+        background: #f5f5f5;
+        padding: 20px;
+        margin-bottom: 15px;
+        border-left: 5px solid #667eea;
+        border-radius: 5px;
+        transition: transform 0.2s;
+    }
+
+    .appointment-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .appointment-card h4 {
+        margin: 0 0 10px 0;
+        color: #333;
+    }
+
+    .appointment-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        font-size: 0.95em;
+    }
+
+    .appointment-details p {
+        margin: 5px 0;
+    }
+
+    .label {
+        font-weight: bold;
+        color: #667eea;
+    }
+
+    .no-appointments {
+        text-align: center;
+        padding: 40px;
+        color: #999;
+    }
+
+    .no-appointments p {
+        font-size: 1.1em;
+    }
+
+    .action-buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 0.95em;
+        transition: 0.3s;
+    }
+
+    .btn-primary {
+        background: #667eea;
+        color: white;
+    }
+
+    .btn-primary:hover {
+        background: #5568d3;
+    }
+
+    .btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+    }
+
+    .btn-secondary:hover {
+        background: #e0e0e0;
+    }
+</style>
+
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h1>👨‍⚕️ Doctor Dashboard</h1>
+        <p>Welcome, Dr. @userName!</p>
+    </div>
+
+    <div class="appointments-section">
+        <h2>📅 Your Appointments</h2>
+        
+        @{
+            var appointmentsJson = ViewBag.AppointmentsData;
+            var hasAppointments = false;
+
+            if (!string.IsNullOrEmpty(appointmentsJson) && appointmentsJson != "[]")
+            {
+                hasAppointments = !appointmentsJson.Equals("[]");
+            }
+        }
+
+        @if (hasAppointments)
+        {
+            <div id="appointmentsList"></div>
+        }
+        else
+        {
+            <div class="no-appointments">
+                <p>📭 No appointments scheduled yet</p>
+                <p>Patients will be able to book appointments with you once the system is fully operational.</p>
+            </div>
+        }
+    </div>
+
+    <div style="margin-top: 30px;">
+        <div class="appointments-section">
+            <h2>👥 Patient Management</h2>
+            <p>View and manage your patients' medical records</p>
+            <a href="@Url.Action("Index", "Appointments")" class="btn btn-primary">Manage Patients</a>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <a href="@Url.Action("Logout", "Auth")" class="btn btn-secondary">🚪 Logout</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const appointmentsData = '@Html.Raw(ViewBag.AppointmentsData)';
+        if (appointmentsData && appointmentsData !== "[]") {
+            try {
+                const appointments = JSON.parse(appointmentsData);
+                const appointmentsList = document.getElementById('appointmentsList');
+                
+                if (appointments && appointments.length > 0) {
+                    appointmentsList.innerHTML = appointments.map(appt => `
+                        <div class="appointment-card">
+                            <h4>👤 ${appt.data?.patientName || 'Patient'}</h4>
+                            <div class="appointment-details">
+                                <p><span class="label">Date & Time:</span> ${new Date(appt.data?.appointmentDate).toLocaleString()}</p>
+                                <p><span class="label">Status:</span> ${appt.data?.status || 'Scheduled'}</p>
+                                <p><span class="label">Email:</span> ${appt.data?.patientEmail || 'N/A'}</p>
+                                <p><span class="label">Phone:</span> ${appt.data?.patientPhone || 'N/A'}</p>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+            } catch (e) {
+                console.error('Error parsing appointments:', e);
+            }
+        }
+    });
+</script>

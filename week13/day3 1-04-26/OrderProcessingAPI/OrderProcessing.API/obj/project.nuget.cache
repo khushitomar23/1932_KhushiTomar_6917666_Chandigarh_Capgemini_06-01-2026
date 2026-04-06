@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hkbrLnK7ZIw=",
+  "success": true,
+  "projectFilePath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week13\\day3 1-04-26\\OrderProcessingAPI\\OrderProcessing.API\\OrderProcessing.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khush\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\khush\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\khush\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\khush\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\khush\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\khush\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

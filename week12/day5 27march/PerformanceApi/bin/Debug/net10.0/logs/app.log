@@ -1,0 +1,6 @@
+2026-03-27 14:33:06,191 INFO  PerformanceApi.Middleware.PerformanceMiddleware - API Started: /api/Product
+2026-03-27 14:33:06,246 INFO  PerformanceApi.Controllers.ProductController - API Started
+2026-03-27 14:33:11,253 INFO  PerformanceApi.Controllers.ProductController - API Completed in 5.0081083 sec
+2026-03-27 14:33:11,258 WARN  PerformanceApi.Controllers.ProductController - Slow API detected: 5.0081083 sec
+2026-03-27 14:33:11,275 INFO  PerformanceApi.Middleware.PerformanceMiddleware - API Completed in 5.108062 sec
+2026-03-27 14:33:11,275 WARN  PerformanceApi.Middleware.PerformanceMiddleware - Slow API detected: 5.108062 sec

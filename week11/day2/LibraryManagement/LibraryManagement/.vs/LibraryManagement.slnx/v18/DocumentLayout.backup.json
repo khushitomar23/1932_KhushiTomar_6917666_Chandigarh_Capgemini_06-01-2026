@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week11\\day2\\librarymanagement\\librarymanagement\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week11\\day2\\librarymanagement\\librarymanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week11\\day2\\librarymanagement\\librarymanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week11\\day2\\librarymanagement\\librarymanagement\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|solutionrelative:views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week11\\day2\\librarymanagement\\librarymanagement\\models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|solutionrelative:models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week11\\day2\\librarymanagement\\librarymanagement\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5249F780-3F6D-0704-DBC0-BE088973AFD9}|LibraryManagement.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAACAAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T08:37:20.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Create.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T08:36:52.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T08:36:21.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:32:57.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Models\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\BookViewModel.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Models\\BookViewModel.cs",
+              "RelativeToolTip": "Models\\BookViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:32:22.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week11\\day2\\LibraryManagement\\LibraryManagement\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:30:37.119Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

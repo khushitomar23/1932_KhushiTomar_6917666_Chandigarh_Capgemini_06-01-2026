@@ -1,0 +1,90 @@
+﻿@model List<ProductDto>
+
+@using ECommerceSite.Models.DTOs
+
+@{
+    ViewData["Title"] = "Welcome to ECommerce Shop";
+}
+
+<div class="hero">
+    <h1>✨ Welcome to Our Cute Shop ✨</h1>
+    <p>Discover amazing products handpicked just for you!</p>
+    <a href="#products-section" class="btn btn-primary">Shop Now</a>
+</div>
+
+<div class="products-section" id="products-section">
+    <h2 style="font-family: 'Dancing Script', cursive; font-size: 2.5rem; text-align: center; color: #6B5B7F; margin-bottom: 2rem;">
+        Our Featured Products
+    </h2>
+
+    @if (Model == null || Model.Count == 0)
+    {
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">No products available yet</h4>
+            <p>Check back soon for amazing products!</p>
+        </div>
+    }
+    else
+    {
+        <div class="products-grid">
+            @foreach (var product in Model)
+            {
+                <div class="product-card">
+                    <div style="height: 200px; display: flex; align-items: center; justify-content: center; overflow: hidden; background: linear-gradient(135deg, #FFB6D9 0%, #C5A3FF 100%);">
+                        @if (!string.IsNullOrEmpty(product.ImageUrl) && !product.ImageUrl.Contains("placeholder"))
+                        {
+                            <img src="@product.ImageUrl" alt="@product.Name" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        }
+                        else
+                        {
+                            <span style="color: white; font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">🛍️</span>
+                        }
+                    </div>
+                    <div class="product-card-body">
+                        <h5 class="product-name">@product.Name</h5>
+                        <p class="product-price">Rs. @product.Price.ToString("N2")</p>
+                        <p class="product-text" style="color: #8B7BA8; font-size: 0.9rem;">
+                            @if (product.Description != null && product.Description.Length > 60)
+                            {
+                                @product.Description.Substring(0, 60)<span>...</span>
+                            }
+                            else
+                            {
+                                @product.Description
+                            }
+                        </p>
+
+                        @if (product.Categories != null && product.Categories.Count > 0)
+                        {
+                            <div style="margin-bottom: 1rem;">
+                                @foreach (var category in product.Categories)
+                                {
+                                    <span class="badge-tag">@category</span>
+                                }
+                            </div>
+                        }
+
+                        <div class="product-stock">
+                            @if (product.StockQuantity > 0)
+                            {
+                                <span style="color: #2D7A6F; font-weight: 600;">
+                                    ✓ In Stock (@product.StockQuantity available)
+                                </span>
+                            }
+                            else
+                            {
+                                <span style="color: #8B4A6F; font-weight: 600;">Out of Stock</span>
+                            }
+                        </div>
+
+                        <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                            <a href="@Url.Action("ProductDetails", new { id = product.Id })" class="btn btn-primary w-100" style="font-size: 0.85rem;">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

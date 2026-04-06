@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Welcome - Healthcare System";
+}
+
+<div style="text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; min-height: 80vh; display: flex; flex-direction: column; justify-content: center;">
+    <h1 style="font-size: 3.5em; margin-bottom: 20px;">💗 HealthCare Appointment System</h1>
+    <p style="font-size: 1.3em; margin-bottom: 40px; opacity: 0.95;">Your Health is Our Priority</p>
+    
+    <div style="max-width: 600px; margin: 0 auto; background: rgba(255,255,255,0.1); padding: 40px; border-radius: 10px; backdrop-filter: blur(10px);">
+        <h2 style="margin-bottom: 30px;">Welcome!</h2>
+        <p style="margin-bottom: 25px;">Please login to access your personalized healthcare dashboard</p>
+        
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+            <a href="@Url.Action("Login", "Auth")" 
+               style="background: #4CAF50; color: white; padding: 15px 40px; text-decoration: none; border-radius: 5px; font-size: 1.1em; transition: 0.3s;">
+                🔐 Login
+            </a>
+            <a href="@Url.Action("Register", "Auth")" 
+               style="background: #2196F3; color: white; padding: 15px 40px; text-decoration: none; border-radius: 5px; font-size: 1.1em; transition: 0.3s;">
+                📝 Register
+            </a>
+        </div>
+    </div>
+
+    <div style="margin-top: 60px; padding: 20px;">
+        <h3>Features:</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin: 10px 0;">✅ Doctors: View your profile and patient appointments</li>
+            <li style="margin: 10px 0;">✅ Patients: Search & book appointments with specialists</li>
+            <li style="margin: 10px 0;">✅ Secure JWT Authentication</li>
+            <li style="margin: 10px 0;">✅ Real-time Appointment Management</li>
+        </ul>
+    </div>
+
+    <footer style="margin-top: auto; padding-top: 40px; opacity: 0.8;">
+        <p>💕 Made with love for your health 💕</p>
+    </footer>
+</div>

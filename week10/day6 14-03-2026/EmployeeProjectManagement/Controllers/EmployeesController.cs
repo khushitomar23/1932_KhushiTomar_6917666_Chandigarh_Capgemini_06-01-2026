@@ -1,0 +1,46 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using EmployeeProjectManagement.Data;
+using EmployeeProjectManagement.Models;
+
+namespace EmployeeProjectManagement.Controllers
+{
+    public class EmployeesController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public EmployeesController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+        public IActionResult Create()
+        {
+            ViewBag.Departments = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(_context.Departments.ToList(), "DepartmentId", "Name");
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Employee employee)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Employees.Add(employee);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.Departments = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(_context.Departments.ToList(), "DepartmentId", "Name");
+            return View(employee);
+        }
+
+        // Show all employees
+        public IActionResult Index()
+        {
+            var employees = _context.Employees
+                            .Include(e => e.Department)
+                            .ToList();
+
+            return View(employees);
+        }
+    }
+}

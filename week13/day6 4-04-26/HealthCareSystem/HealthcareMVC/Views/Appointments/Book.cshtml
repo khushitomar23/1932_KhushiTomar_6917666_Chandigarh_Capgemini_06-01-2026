@@ -1,0 +1,267 @@
+@model CreateAppointmentViewModel
+@{
+    ViewData["Title"] = "Book Appointment";
+    Layout = "_Layout";
+}
+
+<div class="appointment-container">
+    <div class="appointment-card">
+        <h1 class="appointment-title">Schedule Your Appointment 📅</h1>
+
+        <!-- Doctor Information Card -->
+        <div class="doctor-info-card">
+            <div class="doctor-info-header">
+                <h2>👨‍⚕️ @Model.DoctorName</h2>
+            </div>
+            <div class="doctor-info-details">
+                <div class="info-row">
+                    <label>Department:</label>
+                    <span>@Model.DoctorDepartment</span>
+                </div>
+                <div class="info-row">
+                    <label>Consultation Fee:</label>
+                    <span class="fee-amount">@Model.ConsultationFee</span>
+                </div>
+            </div>
+        </div>
+
+        <form method="post" class="appointment-form" id="bookingForm" novalidate>
+            <input type="hidden" name="doctorId" value="@Model.DoctorId" />
+
+            <div class="form-group">
+                <label for="appointmentDate" class="form-label">Select Date & Time</label>
+                <input 
+                    type="datetime-local" 
+                    id="appointmentDate" 
+                    name="appointmentDate" 
+                    class="form-input" 
+                    required
+                    data-validation="datetime"/>
+                <small style="color: #999; display: block; margin-top: 5px;">Please select a future date and time</small>
+            </div>
+
+            <div class="form-group">
+                <label for="problemDescription" class="form-label">Reason for Appointment</label>
+                <textarea 
+                    id="problemDescription" 
+                    name="problemDescription" 
+                    class="form-input" 
+                    placeholder="Describe your symptoms, health concerns, or reason for visit..."
+                    rows="4"
+                    maxlength="500"></textarea>
+                <small style="color: #999; display: block; margin-top: 5px;">Please describe your health concerns (optional, max 500 characters)</small>
+            </div>
+
+            @if (ViewData.ModelState.Values.Any(x => x.Errors.Any()))
+            {
+                <div class="alert alert-danger">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(x => x.Errors))
+                    {
+                        <p>@error.ErrorMessage</p>
+                    }
+                </div>
+            }
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary" id="confirmBtn">
+                    <span id="confirmBtnText">Confirm Booking</span>
+                </button>
+                <a href="/doctors" class="btn btn-secondary">Back to Doctors</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById('bookingForm').addEventListener('submit', function(e) {
+        const dateInput = document.getElementById('appointmentDate');
+        const selectedDate = new Date(dateInput.value);
+        const now = new Date();
+
+        // Check if date is in the future
+        if (selectedDate <= now) {
+            e.preventDefault();
+            alert('Please select a future date and time');
+            dateInput.style.borderColor = '#fc5c65';
+            return;
+        }
+
+        // Disable button while submitting
+        const confirmBtn = document.getElementById('confirmBtn');
+        confirmBtn.disabled = true;
+        document.getElementById('confirmBtnText').textContent = 'Booking...';
+
+        dateInput.style.borderColor = '#e8e8e8';
+    });
+
+    // Set minimum date to today/tomorrow and current time
+    const dateInput = document.getElementById('appointmentDate');
+    const now = new Date();
+    now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+    dateInput.setAttribute('min', now.toISOString().slice(0, 16));
+
+    // Visual feedback for date selection
+    dateInput.addEventListener('change', function() {
+        const selectedDate = new Date(this.value);
+        if (selectedDate > new Date()) {
+            this.style.borderColor = '#26de81';
+        }
+    });
+</script>
+
+<style>
+    .appointment-container {
+        max-width: 600px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .appointment-card {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .appointment-title {
+        text-align: center;
+        color: #333;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .doctor-info-card {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    }
+
+    .doctor-info-header h2 {
+        margin: 0 0 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    .doctor-info-details {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .info-row {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .info-row label {
+        font-weight: 600;
+        opacity: 0.9;
+    }
+
+    .info-row span {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .fee-amount {
+        font-size: 1.3rem !important;
+        font-weight: 700 !important;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        display: inline-block;
+    }
+
+    .appointment-form {
+        padding: 1rem 0;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: #333;
+        font-size: 1rem;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 0.8rem;
+        border: 2px solid #e0e0e0;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+    }
+
+    .form-input:focus {
+        outline: none;
+        border-color: #667eea;
+        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    .form-actions {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .btn {
+        flex: 1;
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+
+    .btn-primary:hover:not(:disabled) {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-primary:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    .btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+    }
+
+    .btn-secondary:hover {
+        background: #e0e0e0;
+    }
+
+    .alert {
+        padding: 1rem;
+        border-radius: 6px;
+        margin-bottom: 1.5rem;
+    }
+
+    .alert-danger {
+        background: #fee;
+        color: #c33;
+        border-left: 4px solid #c33;
+    }
+
+    .alert-danger p {
+        margin: 0.5rem 0;
+    }
+</style>

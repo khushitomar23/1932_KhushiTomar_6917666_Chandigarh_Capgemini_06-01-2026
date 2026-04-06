@@ -1,0 +1,20 @@
+﻿@model Customer___products.Models.Product
+
+<form asp-action="Create" method="post">
+
+    @Html.AntiForgeryToken()
+
+    <div asp-validation-summary="All"></div>
+
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label>Price</label>
+        <input asp-for="Price" />
+    </div>
+
+    <button type="submit">Save</button>
+</form>

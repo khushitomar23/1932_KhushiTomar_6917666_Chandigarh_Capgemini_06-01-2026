@@ -1,0 +1,36 @@
+@model IEnumerable<EcommerceApp.Models.Order>
+
+@{
+  ViewData["Title"] = "Orders";
+}
+
+<h1>Orders</h1>
+
+<p>
+  <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Home</a>
+</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>@Html.DisplayNameFor(model => model.First().OrderId)</th>
+      <th>@Html.DisplayNameFor(model => model.First().OrderDate)</th>
+      <th>@Html.DisplayNameFor(model => model.First().TotalAmount)</th>
+      <th>Customer</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+      <tr>
+        <td>@item.OrderId</td>
+        <td>@item.OrderDate.ToString("d")</td>
+        <td>@item.TotalAmount.ToString("C")</td>
+        <td>@item.Customer?.FullName</td>
+        <td>
+          <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-sm btn-info">View</a>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ECommerceSite.Web/1.0.0": {
+        "dependencies": {
+          "ECommerceSite.Models": "1.0.0"
+        },
+        "runtime": {
+          "ECommerceSite.Web.dll": {}
+        }
+      },
+      "ECommerceSite.Models/1.0.0": {
+        "runtime": {
+          "ECommerceSite.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommerceSite.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerceSite.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

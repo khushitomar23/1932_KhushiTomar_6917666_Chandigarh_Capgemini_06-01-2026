@@ -1,0 +1,30 @@
+﻿@model HotelBookingSystem.Models.Booking
+
+<h2>Book Room</h2>
+
+<form method="post">
+
+    <!-- Room Dropdown -->
+    <label>Select Room</label>
+    <select asp-for="RoomId"
+            asp-items="@(new SelectList(ViewBag.Rooms, "RoomId", "RoomNumber"))"
+            class="form-control">
+    </select>
+
+    <!-- Customer Dropdown -->
+    <label class="mt-2">Select Customer</label>
+    <select asp-for="CustomerId"
+            asp-items="@(new SelectList(ViewBag.Customers, "CustomerId", "Name"))"
+            class="form-control">
+    </select>
+
+    <!-- Dates -->
+    <label class="mt-2">Check-In</label>
+    <input type="date" asp-for="CheckInDate" class="form-control" />
+
+    <label class="mt-2">Check-Out</label>
+    <input type="date" asp-for="CheckOutDate" class="form-control" />
+
+    <button type="submit" class="btn btn-primary mt-3">Book</button>
+
+</form>

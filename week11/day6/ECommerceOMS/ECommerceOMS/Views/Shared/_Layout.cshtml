@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ECommerce OMS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+        body {
+            background-color: #ffe6f0; /* soft pink background */
+        }
+
+        .navbar {
+            background-color: #ff66b2 !important; /* bright pink navbar */
+        }
+
+        .container {
+            background-color: #fff0f5; /* very light pink content */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Navbar links always fuchsia */
+        .navbar .nav-link {
+            color: #FF00FF !important;
+            font-weight: bold;
+        }
+
+            .navbar .nav-link:hover {
+                color: #cc00cc !important;
+            }
+
+        /* Navbar brand always fuchsia */
+        .navbar .navbar-brand {
+            color: #FF00FF !important;
+            font-weight: bold;
+        }
+
+            .navbar .navbar-brand:hover {
+                color: #cc00cc !important;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">ECommerce OMS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" asp-controller="Products" asp-action="Index">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Customers" asp-action="Index">Customers</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Orders" asp-action="Index">Orders</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Categories" asp-action="Index">Categories</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-warning fw-bold" asp-controller="Admin" asp-action="Dashboard">Admin Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center text-muted mt-5 py-3 border-top">
+        <small>ECommerce Order Management System &copy; @DateTime.Now.Year</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

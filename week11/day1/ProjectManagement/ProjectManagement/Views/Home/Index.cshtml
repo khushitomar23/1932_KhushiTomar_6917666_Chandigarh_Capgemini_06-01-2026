@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* Home page pink styling */
+        .home-pink {
+            color: #ff2d96; /* bright pink */
+        }
+
+        .home-pink-bg {
+            background-color: #fff0f6; /* soft pink background */
+            padding: 18px;
+            border-radius: 8px;
+            border: 1px solid #ffd1e8;
+        }
+
+        /* small helper to keep layout tidy on this page */
+        .home-center {
+            max-width: 880px;
+            margin: 28px auto;
+            font-family: Arial, sans-serif;
+            color: #222;
+        }
+
+        .home-cta {
+            display: inline-block;
+            margin-top: 14px;
+            padding: 8px 14px;
+            background: #ff2d96;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .home-cta:hover { opacity: 0.95; }
+    </style>
+</head>
+<body>
+    <div class="home-center">
+        <div class="home-pink-bg">
+            <h1 class="home-pink">Welcome to Product Management</h1>
+            <p>
+                This is the home page. Navigate to the products list to see available items.
+            </p>
+
+            <a href="@Url.Action("Index", "Product")" class="home-cta">View Products</a>
+        </div>
+    </div>
+</body>
+</html>

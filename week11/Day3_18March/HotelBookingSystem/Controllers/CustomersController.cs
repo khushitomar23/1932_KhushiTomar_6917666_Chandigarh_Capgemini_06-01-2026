@@ -1,0 +1,35 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using HotelBookingSystem.Models;
+using System.Linq;
+
+namespace HotelBookingSystem.Controllers
+{
+    public class CustomersController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public CustomersController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index()
+        {
+            var model = _context.Customers.ToList();
+            return View("Index", model);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Customer customer)
+        {
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+    }
+}

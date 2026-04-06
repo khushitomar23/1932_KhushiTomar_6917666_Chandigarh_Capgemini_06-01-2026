@@ -1,0 +1,191 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_Layout";
+}
+
+<div class="admin-dashboard">
+    <h1 class="page-title">Admin Dashboard 📊</h1>
+    <p class="page-subtitle">Manage doctors, patients, and system operations</p>
+
+    @if (ViewBag.Error != null)
+    {
+        <div style="background: #fee; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; color: #c33;">
+            <p>⚠️ @ViewBag.Error</p>
+        </div>
+    }
+
+    <div class="dashboard-stats">
+        <div class="stat-card">
+            <div class="stat-icon">👨‍⚕️</div>
+            <div class="stat-content">
+                <h3>Total Doctors</h3>
+                <p class="stat-number">@(ViewBag.DoctorsCount ?? 0)</p>
+            </div>
+            <a href="/admin/managedoctors" class="stat-action">Manage →</a>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div class="stat-content">
+                <h3>Total Patients</h3>
+                <p class="stat-number">@(ViewBag.PatientsCount ?? 0)</p>
+            </div>
+            <a href="/admin/managepatients" class="stat-action">Manage →</a>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon">📅</div>
+            <div class="stat-content">
+                <h3>Appointments</h3>
+                <p class="stat-number">@(ViewBag.AppointmentsCount ?? 0)</p>
+            </div>
+            <a href="#" class="stat-action">View →</a>
+        </div>
+    </div>
+
+    <div class="dashboard-actions">
+        <h2 style="margin-top: 2rem; margin-bottom: 1rem; color: #333;">Quick Actions</h2>
+        <div class="action-buttons">
+            <a href="/admin/adddoctor" class="btn btn-primary btn-large">
+                ➕ Add New Doctor
+            </a>
+            <a href="/admin/managedoctors" class="btn btn-secondary btn-large">
+                📋 Manage Doctors
+            </a>
+            <a href="/admin/managepatients" class="btn btn-secondary btn-large">
+                👥 Manage Patients
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .admin-dashboard {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .page-subtitle {
+        text-align: center;
+        color: #666;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .dashboard-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .stat-card {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .stat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 16px rgba(102, 126, 234, 0.15);
+    }
+
+    .stat-icon {
+        font-size: 3rem;
+        margin-right: 1rem;
+    }
+
+    .stat-content {
+        flex: 1;
+    }
+
+    .stat-content h3 {
+        margin: 0 0 0.5rem 0;
+        color: #666;
+        font-size: 0.95rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .stat-number {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #667eea;
+    }
+
+    .stat-action {
+        padding: 0.5rem 1rem;
+        background: #667eea;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.2s;
+        white-space: nowrap;
+    }
+
+    .stat-action:hover {
+        background: #764ba2;
+    }
+
+    .dashboard-actions {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .action-buttons {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .btn-large {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        transition: all 0.2s;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+        border: 2px solid #ddd;
+    }
+
+    .btn-secondary:hover {
+        background: #e8e8e8;
+        border-color: #667eea;
+    }
+</style>

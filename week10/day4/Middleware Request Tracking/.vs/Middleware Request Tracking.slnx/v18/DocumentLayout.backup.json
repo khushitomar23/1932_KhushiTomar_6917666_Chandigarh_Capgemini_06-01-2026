@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\middleware request tracking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\middleware request tracking\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\middleware request tracking\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\middleware request tracking\\middleware\\requesttrackingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|solutionrelative:middleware\\requesttrackingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\middleware request tracking\\services\\requestlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|solutionrelative:services\\requestlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\middleware request tracking\\services\\irequestlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|solutionrelative:services\\irequestlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day4\\middleware request tracking\\models\\requestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBAFBBE-E487-D27F-80FB-5E43628AA17D}|Middleware Request Tracking.csproj|solutionrelative:models\\requestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T06:32:37.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:31:07.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:25:51.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestTrackingMiddleware.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Middleware\\RequestTrackingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\RequestTrackingMiddleware.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Middleware\\RequestTrackingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\RequestTrackingMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:26:26.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestLogService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Services\\RequestLogService.cs",
+              "RelativeDocumentMoniker": "Services\\RequestLogService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Services\\RequestLogService.cs",
+              "RelativeToolTip": "Services\\RequestLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:24:47.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRequestLogService.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Services\\IRequestLogService.cs",
+              "RelativeDocumentMoniker": "Services\\IRequestLogService.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Services\\IRequestLogService.cs",
+              "RelativeToolTip": "Services\\IRequestLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:22:48.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestLog.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Models\\RequestLog.cs",
+              "RelativeDocumentMoniker": "Models\\RequestLog.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day4\\Middleware Request Tracking\\Models\\RequestLog.cs",
+              "RelativeToolTip": "Models\\RequestLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:20:46.477Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day1\\efcorecodefirstapproachdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day1\\efcorecodefirstapproachdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day1\\efcorecodefirstapproachdemo\\migrations\\20260309071820_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|solutionrelative:migrations\\20260309071820_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day1\\efcorecodefirstapproachdemo\\models\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|solutionrelative:models\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|k:\\capgemini_cu_sec3_netwebazure_khushi\\week10\\day1\\efcorecodefirstapproachdemo\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF4C3BA-8813-31B2-B122-D5D43C0608A1}|EfCoreCodeFirstApproachDemo.csproj|solutionrelative:models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260309071820_m1.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Migrations\\20260309071820_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260309071820_m1.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Migrations\\20260309071820_m1.cs",
+              "RelativeToolTip": "Migrations\\20260309071820_m1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T07:18:20.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T07:16:38.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-09T07:12:11.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Models\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeDbContext.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Models\\EmployeeDbContext.cs",
+              "RelativeToolTip": "Models\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T07:11:05.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeModel.cs",
+              "ToolTip": "K:\\Capgemini_CU_Sec3_NetWebAzure_Khushi\\week10\\day1\\EfCoreCodeFirstApproachDemo\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:44:06.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

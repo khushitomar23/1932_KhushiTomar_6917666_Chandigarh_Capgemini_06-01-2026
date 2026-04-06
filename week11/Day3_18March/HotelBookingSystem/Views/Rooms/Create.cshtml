@@ -1,0 +1,13 @@
+﻿@model HotelBookingSystem.Models.Room
+
+<h2>Add Room</h2>
+
+<form method="post">
+    <input asp-for="RoomNumber" placeholder="Room Number" class="form-control" />
+    <input asp-for="Type" placeholder="Type" class="form-control mt-2" />
+    <input asp-for="Price" placeholder="Price" class="form-control mt-2" />
+    <input asp-for="ImageUrl" placeholder="Image URL" class="form-control mt-2" />
+
+
+    <button class="btn btn-success mt-3">Save</button>
+</form>

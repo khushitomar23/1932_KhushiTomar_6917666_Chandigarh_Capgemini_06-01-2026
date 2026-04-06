@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TransactEase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --pink: #e8a0b4;
+      --pink-light: #f7dde6;
+      --pink-dark: #c4687e;
+      --green: #7cad8f;
+      --green-light: #d4ead9;
+      --green-dark: #4a7c5e;
+      --bg: #fdf6f8;
+      --text: #3a2a30;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Cormorant Garamond', serif;
+      background: var(--bg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: radial-gradient(circle at 20% 30%, #f7dde688 0%, transparent 50%),
+                        radial-gradient(circle at 80% 70%, #d4ead988 0%, transparent 50%);
+    }
+
+    .container { width: 100%; max-width: 480px; padding: 20px; }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 48px 40px;
+      box-shadow: 0 8px 40px #e8a0b430;
+      border: 1px solid #f0d0da;
+      text-align: center;
+    }
+
+    .brand {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 1.7rem;
+      color: var(--pink-dark);
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: var(--green-dark);
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+      letter-spacing: 1px;
+    }
+
+    .tabs {
+      display: flex;
+      margin-bottom: 28px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1.5px solid #e8c8d0;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 10px;
+      background: white;
+      border: none;
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 0.7rem;
+      letter-spacing: 1.5px;
+      color: #aaa;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .tab.active {
+      background: linear-gradient(135deg, var(--pink-dark), var(--green-dark));
+      color: white;
+    }
+
+    .form-group { margin-bottom: 18px; text-align: left; }
+
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--green-dark);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1.5px solid #e8c8d0;
+      border-radius: 10px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--text);
+      background: #fff9fb;
+      transition: border-color 0.3s;
+      outline: none;
+    }
+
+    .form-group input:focus { border-color: var(--pink-dark); }
+
+    .error-msg {
+      color: var(--pink-dark);
+      font-size: 0.82rem;
+      margin-top: 5px;
+      display: none;
+      font-style: italic;
+    }
+
+    .success-msg {
+      color: var(--green-dark);
+      font-size: 0.82rem;
+      margin-top: 5px;
+      display: none;
+      font-style: italic;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 13px;
+      background: linear-gradient(135deg, var(--pink-dark), var(--green-dark));
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: opacity 0.3s;
+    }
+
+    .btn:hover { opacity: 0.88; }
+
+    .global-error {
+      background: #fdeaea;
+      color: var(--pink-dark);
+      border: 1px solid #f5c0c8;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.88rem;
+      margin-top: 16px;
+      display: none;
+      font-style: italic;
+    }
+
+    .global-success {
+      background: #eafaf0;
+      color: var(--green-dark);
+      border: 1px solid #b2dfc2;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.88rem;
+      margin-top: 16px;
+      display: none;
+      font-style: italic;
+    }
+
+    .dashboard { display: none; }
+
+    .dash-header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .dash-header .brand { font-size: 1.4rem; }
+
+    .welcome {
+      font-style: italic;
+      color: var(--green-dark);
+      font-size: 1rem;
+      margin-top: 4px;
+    }
+
+    .logout-btn {
+      background: none;
+      border: 1.5px solid var(--pink-dark);
+      color: var(--pink-dark);
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.88rem;
+      cursor: pointer;
+      margin-top: 10px;
+      letter-spacing: 1px;
+      transition: all 0.3s;
+    }
+
+    .logout-btn:hover { background: var(--pink-dark); color: white; }
+
+    .table-card {
+      background: white;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 8px 40px #e8a0b425;
+      border: 1px solid #f0d0da;
+    }
+
+    .table-title {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 0.95rem;
+      color: var(--green-dark);
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+
+    thead tr { background: linear-gradient(135deg, var(--pink-light), var(--green-light)); }
+
+    thead th {
+      padding: 12px 14px;
+      text-align: left;
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 0.7rem;
+      letter-spacing: 1.5px;
+      color: var(--text);
+      font-weight: 400;
+    }
+
+    tbody tr { border-bottom: 1px solid #f5eaf0; transition: background 0.2s; }
+    tbody tr:hover { background: #fdf0f4; }
+    tbody td { padding: 12px 14px; color: var(--text); }
+
+    .badge {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+
+    .badge.credit { background: var(--green-light); color: var(--green-dark); }
+    .badge.debit  { background: var(--pink-light);  color: var(--pink-dark);  }
+
+    .loading {
+      text-align: center;
+      padding: 30px;
+      color: var(--green-dark);
+      font-style: italic;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- AUTH CARD -->
+  <div class="card" id="authCard">
+    <div class="brand">TransactEase</div>
+    <div class="tagline">~ your ledger, elegantly ~</div>
+
+    <div class="tabs">
+      <button class="tab active" id="loginTab" onclick="switchTab('login')">Login</button>
+      <button class="tab" id="registerTab" onclick="switchTab('register')">Register</button>
+    </div>
+
+    <!-- LOGIN FORM -->
+    <div id="loginForm">
+      <div class="form-group">
+        <label>Username</label>
+        <input type="text" id="loginUsername" placeholder="enter username"/>
+        <div class="error-msg" id="loginUsernameErr">Username cannot be empty</div>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="loginPassword" placeholder="enter password"/>
+        <div class="error-msg" id="loginPasswordErr">Password cannot be empty</div>
+      </div>
+      <button class="btn" onclick="login()">Enter</button>
+      <div class="global-error" id="loginErr"></div>
+    </div>
+
+    <!-- REGISTER FORM -->
+    <div id="registerForm" style="display:none;">
+      <div class="form-group">
+        <label>Username</label>
+        <input type="text" id="regUsername" placeholder="choose a username"/>
+        <div class="error-msg" id="regUsernameErr">Username cannot be empty</div>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="regPassword" placeholder="choose a password"/>
+        <div class="error-msg" id="regPasswordErr">Password cannot be empty</div>
+      </div>
+      <div class="form-group">
+        <label>Confirm Password</label>
+        <input type="password" id="regConfirm" placeholder="confirm your password"/>
+        <div class="error-msg" id="regConfirmErr">Passwords do not match</div>
+      </div>
+      <button class="btn" onclick="register()">Register</button>
+      <div class="global-error" id="registerErr"></div>
+      <div class="global-success" id="registerSuccess"></div>
+    </div>
+  </div>
+
+  <!-- DASHBOARD -->
+  <div class="dashboard" id="dashboard">
+    <div class="dash-header">
+      <div class="brand">TransactEase</div>
+      <div class="welcome" id="welcomeMsg">Welcome back</div>
+      <button class="logout-btn" onclick="logout()">Sign Out</button>
+    </div>
+    <div class="table-card">
+      <div class="table-title">Transaction History</div>
+      <div id="tableArea">
+        <div class="loading">Loading your transactions...</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const API = 'http://localhost:8080';
+
+  function switchTab(tab) {
+    document.getElementById('loginForm').style.display = tab === 'login' ? 'block' : 'none';
+    document.getElementById('registerForm').style.display = tab === 'register' ? 'block' : 'none';
+    document.getElementById('loginTab').className = 'tab ' + (tab === 'login' ? 'active' : '');
+    document.getElementById('registerTab').className = 'tab ' + (tab === 'register' ? 'active' : '');
+  }
+
+  async function login() {
+    var username = document.getElementById('loginUsername').value.trim();
+    var password = document.getElementById('loginPassword').value.trim();
+    document.getElementById('loginUsernameErr').style.display = 'none';
+    document.getElementById('loginPasswordErr').style.display = 'none';
+    document.getElementById('loginErr').style.display = 'none';
+
+    var valid = true;
+    if (!username) { document.getElementById('loginUsernameErr').style.display = 'block'; valid = false; }
+    if (!password) { document.getElementById('loginPasswordErr').style.display = 'block'; valid = false; }
+    if (!valid) return;
+
+    try {
+      var res = await fetch(API + '/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: username, password: password })
+      });
+
+      if (!res.ok) {
+        document.getElementById('loginErr').textContent = 'Invalid username or password';
+        document.getElementById('loginErr').style.display = 'block';
+        return;
+      }
+
+      var data = await res.json();
+      localStorage.setItem('token', data.token);
+      localStorage.setItem('username', username);
+      showDashboard(username, data.token);
+
+    } catch (e) {
+      document.getElementById('loginErr').textContent = 'Could not connect to server. Is the API running?';
+      document.getElementById('loginErr').style.display = 'block';
+    }
+  }
+
+  async function register() {
+    var username = document.getElementById('regUsername').value.trim();
+    var password = document.getElementById('regPassword').value.trim();
+    var confirm  = document.getElementById('regConfirm').value.trim();
+    document.getElementById('regUsernameErr').style.display = 'none';
+    document.getElementById('regPasswordErr').style.display = 'none';
+    document.getElementById('regConfirmErr').style.display = 'none';
+    document.getElementById('registerErr').style.display = 'none';
+    document.getElementById('registerSuccess').style.display = 'none';
+
+    var valid = true;
+    if (!username) { document.getElementById('regUsernameErr').style.display = 'block'; valid = false; }
+    if (!password) { document.getElementById('regPasswordErr').style.display = 'block'; valid = false; }
+    if (password !== confirm) { document.getElementById('regConfirmErr').style.display = 'block'; valid = false; }
+    if (!valid) return;
+
+    try {
+      var res = await fetch(API + '/api/auth/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: username, password: password })
+      });
+
+      if (!res.ok) {
+        var err = await res.text();
+        document.getElementById('registerErr').textContent = err || 'Registration failed';
+        document.getElementById('registerErr').style.display = 'block';
+        return;
+      }
+
+      document.getElementById('registerSuccess').textContent = 'Registered successfully! Please login.';
+      document.getElementById('registerSuccess').style.display = 'block';
+      setTimeout(function() { switchTab('login'); }, 1500);
+
+    } catch (e) {
+      document.getElementById('registerErr').textContent = 'Could not connect to server.';
+      document.getElementById('registerErr').style.display = 'block';
+    }
+  }
+
+  function showDashboard(username, token) {
+    document.getElementById('authCard').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    document.getElementById('welcomeMsg').textContent = 'Welcome back, ' + username;
+    loadTransactions(token);
+  }
+
+  async function loadTransactions(token) {
+    try {
+      var res = await fetch(API + '/api/transactions', {
+        headers: { 'Authorization': 'Bearer ' + token }
+      });
+
+      var transactions = await res.json();
+
+      if (!transactions.length) {
+        document.getElementById('tableArea').innerHTML = '<div class="loading">No transactions found.</div>';
+        return;
+      }
+
+      var rows = '';
+      for (var i = 0; i < transactions.length; i++) {
+        var t = transactions[i];
+        var d = new Date(t.date);
+        var dateStr = d.toLocaleDateString('en-IN');
+        var amount = parseFloat(t.amount).toFixed(2);
+        var badgeClass = t.type.toLowerCase();
+        rows += '<tr>';
+        rows += '<td>Rs. ' + amount + '</td>';
+        rows += '<td>' + dateStr + '</td>';
+        rows += '<td><span class="badge ' + badgeClass + '">' + t.type + '</span></td>';
+        rows += '</tr>';
+      }
+
+      document.getElementById('tableArea').innerHTML =
+        '<table>' +
+          '<thead><tr><th>Amount</th><th>Date</th><th>Type</th></tr></thead>' +
+          '<tbody>' + rows + '</tbody>' +
+        '</table>';
+
+    } catch (e) {
+      document.getElementById('tableArea').innerHTML = '<div class="loading">Failed to load transactions.</div>';
+    }
+  }
+
+  function logout() {
+    localStorage.removeItem('token');
+    localStorage.removeItem('username');
+    document.getElementById('dashboard').style.display = 'none';
+    document.getElementById('authCard').style.display = 'block';
+    document.getElementById('loginUsername').value = '';
+    document.getElementById('loginPassword').value = '';
+    switchTab('login');
+  }
+
+  var savedToken = localStorage.getItem('token');
+  var savedUser = localStorage.getItem('username');
+  if (savedToken && savedUser) {
+    showDashboard(savedUser, savedToken);
+  }
+</script>
+</body>
+</html>

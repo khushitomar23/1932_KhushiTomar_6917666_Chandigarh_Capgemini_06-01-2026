@@ -1,0 +1,8 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\IISDeployMvc.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\appsettings.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\dotnet-tools.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\IISDeployMvc.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\IISDeployMvc.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\IISDeployMvc.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day1\source\IISDeployMvc\obj\Release\net10.0\PubTmp\Out\IISDeployMvc.pdb

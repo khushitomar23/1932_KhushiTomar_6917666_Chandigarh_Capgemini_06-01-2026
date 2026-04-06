@@ -1,0 +1,148 @@
+@model List<UserViewModel>
+@{
+    ViewData["Title"] = "Patients List";
+    Layout = "_Layout";
+}
+
+<div class="patients-container">
+    <h1 class="page-title">Patient Directory 👥</h1>
+    <p class="page-subtitle">View all registered patients</p>
+
+    @if (ViewBag.Error != null)
+    {
+        <div style="background: #fee; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; color: #c33;">
+            <p>⚠️ @ViewBag.Error</p>
+        </div>
+    }
+
+    @if (Model == null || Model.Count == 0)
+    {
+        <div class="no-data">
+            <p>📭 No patients registered yet.</p>
+        </div>
+    }
+    else
+    {
+        <div class="search-box" style="margin-bottom: 2rem; text-align: center;">
+            <input 
+                type="text" 
+                id="searchPatients" 
+                class="form-input" 
+                placeholder="Search by name or email..." 
+                style="max-width: 400px; margin: 0 auto;">
+            <p style="color: #999; margin-top: 0.5rem;">Found <span id="patientCount">@Model.Count</span> patients</p>
+        </div>
+
+        <div class="patients-table" style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <thead>
+                    <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Name</th>
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Email</th>
+                        <th style="padding: 1rem; text-align: left; border-bottom: 2px solid #764ba2;">Role</th>
+                    </tr>
+                </thead>
+                <tbody id="patientsList">
+                    @foreach (var patient in Model)
+                    {
+                        <tr class="patient-row" 
+                            data-patient-name="@patient.FullName?.ToLower()" 
+                            data-patient-email="@patient.Email?.ToLower()"
+                            style="border-bottom: 1px solid #f0f0f0; transition: background 0.2s;">
+                            <td style="padding: 1rem;">
+                                <strong>@patient.FullName</strong>
+                            </td>
+                            <td style="padding: 1rem;">
+                                @patient.Email
+                            </td>
+                            <td style="padding: 1rem;">
+                                <span style="background: #e3f2fd; color: #1976d2; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">
+                                    @patient.Role
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<style>
+    .patients-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .page-subtitle {
+        text-align: center;
+        color: #666;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .patient-row:hover {
+        background: #f9f9f9;
+    }
+
+    .no-data {
+        text-align: center;
+        padding: 3rem;
+        color: #999;
+        font-size: 1.1rem;
+    }
+
+    .form-input {
+        padding: 0.75rem 1rem;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.3s;
+        width: 100%;
+    }
+
+    .form-input:focus {
+        outline: none;
+        border-color: #667eea;
+        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+</style>
+
+<script>
+    // Patient search functionality
+    const searchInput = document.getElementById('searchPatients');
+    const patientRows = document.querySelectorAll('.patient-row');
+    const patientCount = document.getElementById('patientCount');
+
+    if (searchInput) {
+        searchInput.addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            let visibleCount = 0;
+
+            patientRows.forEach(row => {
+                const patientName = row.getAttribute('data-patient-name');
+                const patientEmail = row.getAttribute('data-patient-email');
+
+                if (patientName.includes(searchTerm) || patientEmail.includes(searchTerm)) {
+                    row.style.display = 'table-row';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            // Update count
+            if (patientCount) {
+                patientCount.textContent = visibleCount;
+            }
+        });
+    }
+</script>

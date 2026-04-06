@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LearnScript — Create Course</title>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #fdf6f0; font-family: 'DM Sans', sans-serif; min-height: 100vh; }
+  nav {
+    background: linear-gradient(135deg, #a8d5a2, #f9c6d0);
+    padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand { font-family: 'Pinyon Script', cursive; font-size: 2rem; color: #3a5a3a; }
+  .back-btn {
+    padding: 0.4rem 1rem; border-radius: 20px;
+    border: 1.5px solid #3a5a3a; background: transparent;
+    color: #3a5a3a; font-family: 'DM Sans', sans-serif;
+    cursor: pointer; font-size: 0.85rem;
+  }
+  .container { max-width: 650px; margin: 3rem auto; padding: 0 2rem; }
+  .page-title { font-family: 'Pinyon Script', cursive; font-size: 3rem; color: #c06080; margin-bottom: 0.5rem; }
+  .subtitle { color: #888; margin-bottom: 2rem; font-size: 0.9rem; }
+  .form-card {
+    background: white; border-radius: 20px;
+    border: 1.5px solid #f0e0e8; padding: 2rem;
+  }
+  .form-group { margin-bottom: 1.5rem; }
+  label { display: block; font-size: 0.78rem; color: #666; margin-bottom: 0.4rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  input, textarea, select {
+    width: 100%; padding: 0.75rem 1rem;
+    border: 1.5px solid #e8d5dc; border-radius: 12px;
+    font-family: 'DM Sans', sans-serif; font-size: 0.95rem;
+    background: #fdf6f0; outline: none; transition: border-color 0.2s;
+  }
+  input:focus, textarea:focus, select:focus { border-color: #c06080; background: white; }
+  textarea { resize: vertical; min-height: 100px; }
+  .error { color: #c06080; font-size: 0.78rem; margin-top: 0.3rem; display: none; }
+  .btn {
+    width: 100%; padding: 0.9rem;
+    background: linear-gradient(135deg, #a8d5a2, #c06080);
+    color: white; border: none; border-radius: 12px;
+    font-size: 1rem; font-family: 'DM Sans', sans-serif;
+    cursor: pointer; letter-spacing: 0.03em; transition: opacity 0.2s;
+  }
+  .btn:hover { opacity: 0.9; }
+  .msg { padding: 0.75rem; border-radius: 10px; margin-bottom: 1rem; font-size: 0.85rem; display: none; }
+  .msg.success { background: #e8f5e8; color: #3a7a3a; display: block; }
+  .msg.err { background: #fde8ee; color: #c06080; display: block; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-brand">LearnScript</div>
+  <button class="back-btn" onclick="window.location.href='courses.html'">← Back to Courses</button>
+</nav>
+<div class="container">
+  <div class="page-title">Create a Course</div>
+  <div class="subtitle">Share your knowledge with the world</div>
+  <div class="form-card">
+    <div class="msg" id="msg"></div>
+    <div class="form-group">
+      <label>Course Title</label>
+      <input type="text" id="title" placeholder="e.g. Introduction to Python">
+      <div class="error" id="title-err">Title is required</div>
+    </div>
+    <div class="form-group">
+      <label>Description</label>
+      <textarea id="desc" placeholder="What will students learn?"></textarea>
+      <div class="error" id="desc-err">Description is required</div>
+    </div>
+    <div class="form-group">
+      <label>Category</label>
+      <input type="text" id="category" placeholder="e.g. Programming, Design, Business">
+      <div class="error" id="cat-err">Category is required</div>
+    </div>
+    <button class="btn" onclick="createCourse()">Publish Course</button>
+  </div>
+</div>
+<script>
+  const API = 'http://localhost:5170';
+  const token = localStorage.getItem('token');
+  if (!token) { alert('Please login first'); window.location.href = 'login.html'; }
+  async function createCourse() {
+    const title = document.getElementById('title').value.trim();
+    const desc = document.getElementById('desc').value.trim();
+    const category = document.getElementById('category').value.trim();
+    let valid = true;
+    ['title-err','desc-err','cat-err'].forEach(id => document.getElementById(id).style.display = 'none');
+    if (!title) { document.getElementById('title-err').style.display = 'block'; valid = false; }
+    if (!desc) { document.getElementById('desc-err').style.display = 'block'; valid = false; }
+    if (!category) { document.getElementById('cat-err').style.display = 'block'; valid = false; }
+    if (!valid) return;
+    try {
+      const res = await fetch(`${API}/api/v1/courses`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+        body: JSON.stringify({ title, description: desc, category, instructorId: 1 })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        showMsg('Course created successfully!', 'success');
+        setTimeout(() => window.location.href = 'courses.html', 1200);
+      } else {
+        showMsg(data.error || JSON.stringify(data), 'err');
+      }
+    } catch { showMsg('Server error. Is the API running?', 'err'); }
+  }
+  function showMsg(text, type) {
+    const m = document.getElementById('msg');
+    m.textContent = text; m.className = `msg ${type}`;
+  }
+</script>
+</body>
+</html>

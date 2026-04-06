@@ -1,0 +1,60 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  color: #1b5e75 !important;
+  font-weight: 700;
+}
+
+a {
+  color: #1b5e75;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #164558;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b5e75;
+  border-color: #1b5e75;
+}
+
+.btn-primary:hover {
+  background-color: #164558;
+  border-color: #164558;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b5e75;
+  border-color: #1b5e75;
+}
+
+.border-top {
+  border-top: 1px solid #e5e7eb;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #3a4555;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.3);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

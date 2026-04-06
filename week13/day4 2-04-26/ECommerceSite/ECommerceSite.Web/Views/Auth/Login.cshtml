@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div style="max-width: 400px; margin: 2rem auto; padding: 2rem; background: linear-gradient(135deg, #FFB6D9 0%, #C5A3FF 100%); border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; color: #6B5B7F; font-family: 'Caveat', cursive; font-size: 2rem; margin-bottom: 1.5rem;">✨ Login ✨</h2>
+    
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div style="background-color: #FFD4A3; color: #6B5B7F; padding: 1rem; border-radius: 10px; margin-bottom: 1rem; border-left: 4px solid #FF6B6B;">
+            @ViewBag.Error
+        </div>
+    }
+
+    @if (TempData["RegistrationSuccess"] != null)
+    {
+        <div style="background-color: #A8FFD8; color: #2D7A6F; padding: 1rem; border-radius: 10px; margin-bottom: 1rem; border-left: 4px solid #22C55E;">
+            @TempData["RegistrationSuccess"]
+        </div>
+    }
+
+    <form method="post" asp-action="Login" asp-controller="Auth">
+        <div style="margin-bottom: 1rem;">
+            <label for="username" style="display: block; color: #6B5B7F; font-weight: bold; margin-bottom: 0.5rem; font-family: 'Quicksand', sans-serif;">Username</label>
+            <input type="text" id="username" name="username" required style="width: 100%; padding: 0.75rem; border: 2px solid #FFB6D9; border-radius: 8px; font-family: 'Quicksand', sans-serif; background-color: rgba(255,255,255,0.9);" placeholder="Enter your username" />
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+            <label for="password" style="display: block; color: #6B5B7F; font-weight: bold; margin-bottom: 0.5rem; font-family: 'Quicksand', sans-serif;">Password</label>
+            <input type="password" id="password" name="password" required style="width: 100%; padding: 0.75rem; border: 2px solid #FFB6D9; border-radius: 8px; font-family: 'Quicksand', sans-serif; background-color: rgba(255,255,255,0.9);" placeholder="Enter your password" />
+        </div>
+
+        <button type="submit" style="width: 100%; padding: 0.75rem; background: linear-gradient(135deg, #FFD4A3 0%, #A8FFD8 100%); color: #6B5B7F; border: none; border-radius: 25px; font-weight: bold; font-family: 'Quicksand', sans-serif; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            Login
+        </button>
+    </form>
+
+    <p style="text-align: center; margin-top: 1.5rem; color: #6B5B7F; font-family: 'Quicksand', sans-serif;">
+        Don't have an account? 
+        <a asp-action="Register" asp-controller="Auth" style="color: #FF6B6B; text-decoration: none; font-weight: bold;">Register here</a>
+    </p>
+
+    <p style="text-align: center; margin-top: 1rem;">
+        <a asp-action="Index" asp-controller="Home" style="color: #6B5B7F; text-decoration: none; font-family: 'Quicksand', sans-serif;">← Back to Shop</a>
+    </p>
+</div>
